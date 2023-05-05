@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/beichengouo/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/beichengouo/"/>
-  <updated>2023-05-05T15:09:53.666Z</updated>
+  <updated>2023-05-05T15:16:12.957Z</updated>
   <id>https://beichengouo.github.io/beichengouo/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://beichengouo.github.io/beichengouo/2023/05/05/qbot/"/>
     <id>https://beichengouo.github.io/beichengouo/2023/05/05/qbot/</id>
     <published>2023-05-05T14:40:02.615Z</published>
-    <updated>2023-05-05T15:09:53.666Z</updated>
+    <updated>2023-05-05T15:16:12.957Z</updated>
     
-    <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="E:\Blog\source\img\01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="E:\Blog\source\img\02.png" alt="02"></p><h3 id="功能介绍："><a href="#功能介绍：" class="headerlink" title="功能介绍："></a>功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被封控无法在qq群内回复。</p><p>设置人格：设置gpt初始人格。</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。</p><p>私人模式：开启后非管理无法与机器人对话。</p><p>变xxx：切换对应预置人格。</p><p>醒醒&#x2F;昏睡：醒醒开启后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。</p><h3 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情</p><p><img src="E:\Blog\source\img\03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况</p><p>3.优化了回复概率问题</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）</p>]]></content>
+    <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/beichengouo/img/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/beichengouo/img/02.png" alt="02"></p><h3 id="功能介绍："><a href="#功能介绍：" class="headerlink" title="功能介绍："></a>功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被封控无法在qq群内回复。</p><p>设置人格：设置gpt初始人格。</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。</p><p>私人模式：开启后非管理无法与机器人对话。</p><p>变xxx：切换对应预置人格。</p><p>醒醒&#x2F;昏睡：醒醒开启后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。</p><h3 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情</p><p><img src="/beichengouo/img/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况</p><p>3.优化了回复概率问题</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）</p>]]></content>
     
     
       
