@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>blog更新工作进展</title>
+      <link href="/2023/05/07/blog/"/>
+      <url>/2023/05/07/blog/</url>
+      
+        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top</p><p>2.pc端网站背景增加动态彩带特效</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Qbot+gpt搭建</title>
       <link href="/2023/05/05/qbot/"/>
       <url>/2023/05/05/qbot/</url>
