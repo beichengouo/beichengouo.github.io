@@ -1,4 +1,4 @@
-https://beichengouo.github.io/2023/05/07/blog/
-https://beichengouo.github.io/2023/05/05/qbot/
-https://beichengouo.github.io/2023/05/05/hello-world/
-https://beichengouo.github.io/
+https://beichengouo.github.io/beichengouo/2023/05/07/blog/
+https://beichengouo.github.io/beichengouo/2023/05/05/qbot/
+https://beichengouo.github.io/beichengouo/2023/05/05/hello-world/
+https://beichengouo.github.io/beichengouo
