@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/"/>
-  <updated>2023-05-07T09:24:57.666Z</updated>
+  <updated>2023-05-07T11:07:47.334Z</updated>
   <id>https://beichengouo.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>blog更新工作进展</title>
+    <title>blog更新工作进展5/7</title>
     <link href="https://beichengouo.github.io/2023/05/07/blog/"/>
     <id>https://beichengouo.github.io/2023/05/07/blog/</id>
     <published>2023-05-07T05:39:36.261Z</published>
-    <updated>2023-05-07T09:24:57.666Z</updated>
+    <updated>2023-05-07T11:07:47.334Z</updated>
     
     <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top</p><p>2.pc端网站背景增加动态彩带特效</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><h2 id="目前bug（2023-x2F-5-x2F-7）："><a href="#目前bug（2023-x2F-5-x2F-7）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;7）："></a>目前bug（2023&#x2F;5&#x2F;7）：</h2><p>本地端搜索栏显示正常，部署到服务器上会显示在最底下，折腾了一下午暂时无法解决。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
     
@@ -34,6 +34,10 @@
     
     
     
+    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
     
   </entry>
   
@@ -42,7 +46,7 @@
     <link href="https://beichengouo.github.io/2023/05/05/qbot/"/>
     <id>https://beichengouo.github.io/2023/05/05/qbot/</id>
     <published>2023-05-05T14:40:02.615Z</published>
-    <updated>2023-05-07T05:29:19.619Z</updated>
+    <updated>2023-05-07T11:08:16.692Z</updated>
     
     <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），标注❤️的则为原版没有的内容。</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/img/1/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/img/1/02.png" alt="02"></p><h3 id="指令功能介绍："><a href="#指令功能介绍：" class="headerlink" title="指令功能介绍："></a>指令功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被风控无法在qq群内回复指令大全，私聊正常。</p><p>设置人格：设置gpt初始人格。格式如 设置人格 xxxxxx（描述）</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。❤️</p><p>私人模式：开启后非管理无法与机器人对话。❤️</p><p>变xxx：切换对应预置人格。❤️</p><p>醒醒&#x2F;昏睡：醒醒后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。❤️</p><p>设备信息：显示服务器各参数详细信息。❤️</p><p>磁盘信息：显示服务器磁盘内存信息。❤️</p><p>拉黑检测：检测到指定敏感关键词将自动拉黑对方。❤️</p><p>初始自动检测：第一次对话将自动识别非管理和管理用户。用于加载不同初始设置（比如加载不同人格）。❤️</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-5-x2F-1"><a href="#2023-x2F-5-x2F-1" class="headerlink" title="2023&#x2F;5&#x2F;1"></a>2023&#x2F;5&#x2F;1</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情。❤️</p><p><img src="/img/1/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况。</p><p>3.优化了回复概率问题。</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）。</p>]]></content>
     
@@ -55,6 +59,10 @@
     
     
     
+    <category term="qbot" scheme="https://beichengouo.github.io/categories/qbot/"/>
+    
+    
+    <category term="qbot" scheme="https://beichengouo.github.io/tags/qbot/"/>
     
   </entry>
   
@@ -63,7 +71,7 @@
     <link href="https://beichengouo.github.io/2023/05/05/hello-world/"/>
     <id>https://beichengouo.github.io/2023/05/05/hello-world/</id>
     <published>2023-05-05T11:58:48.798Z</published>
-    <updated>2023-05-05T14:39:01.635Z</updated>
+    <updated>2023-05-07T10:50:55.803Z</updated>
     
     <content type="html"><![CDATA[<p>本博客使用 <a href="https://hexo.io/">Hexo</a>制作! 这是我的第一篇文章. 查看 <a href="https://hexo.io/docs/">文档</a> 获得更多信息. 如果你在使用Hexo中遇到任何问题，你可以在 <a href="https://hexo.io/docs/troubleshooting.html">故障排除</a> 中找到答案， 或者你可以在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a>上问我.</p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="命令：Create-a-new-post"><a href="#命令：Create-a-new-post" class="headerlink" title="命令：Create a new post"></a>命令：Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="命令：Run-server"><a href="#命令：Run-server" class="headerlink" title="命令：Run server"></a>命令：Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="命令：Generate-static-files"><a href="#命令：Generate-static-files" class="headerlink" title="命令：Generate static files"></a>命令：Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="命令：Deploy-to-remote-sites"><a href="#命令：Deploy-to-remote-sites" class="headerlink" title="命令：Deploy to remote sites"></a>命令：Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     

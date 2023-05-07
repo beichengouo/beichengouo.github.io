@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/07/blog/</loc>
+    <loc>https://beichengouo.github.io/Gallery/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
     
@@ -20,9 +20,45 @@
   </url>
   
   <url>
+    <loc>https://beichengouo.github.io/2023/05/07/blog/</loc>
+    
+    <lastmod>2023-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://beichengouo.github.io/2023/05/05/hello-world/</loc>
     
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/about/index.html</loc>
+    
+    <lastmod>2023-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/music/index.html</loc>
+    
+    <lastmod>2023-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/movies/index.html</loc>
+    
+    <lastmod>2023-05-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -37,6 +73,34 @@
   </url>
 
   
+  <url>
+    <loc>https://beichengouo.github.io/tags/blog/</loc>
+    <lastmod>2023-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/tags/qbot/</loc>
+    <lastmod>2023-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://beichengouo.github.io/categories/blog/</loc>
+    <lastmod>2023-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/categories/qbot/</loc>
+    <lastmod>2023-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
