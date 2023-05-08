@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/08/blog2/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/2023/05/08/blog2/</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/08/bilibilitest/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/2023/05/08/bilibilitest/</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/07/blog/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/2023/05/07/blog/</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/05/qbot/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/2023/05/05/qbot/</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/05/hello-world/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/2023/05/05/hello-world/</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/Gallery/index.html</loc>
+    <loc>https://beichengouo.github.io/beichengouo/Gallery/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/about/index.html</loc>
+    <loc>https://beichengouo.github.io/beichengouo/about/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/music/index.html</loc>
+    <loc>https://beichengouo.github.io/beichengouo/music/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/movies/index.html</loc>
+    <loc>https://beichengouo.github.io/beichengouo/movies/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
     
@@ -84,7 +84,7 @@
   
 
   <url>
-    <loc>https://beichengouo.github.io/</loc>
+    <loc>https://beichengouo.github.io/beichengouo</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -92,21 +92,21 @@
 
   
   <url>
-    <loc>https://beichengouo.github.io/tags/blog/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/tags/blog/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/tags/qbot/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/tags/qbot/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/tags/test/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/tags/test/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -115,21 +115,21 @@
 
   
   <url>
-    <loc>https://beichengouo.github.io/categories/blog/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/categories/blog/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/categories/qbot/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/categories/qbot/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/categories/test/</loc>
+    <loc>https://beichengouo.github.io/beichengouo/categories/test/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
