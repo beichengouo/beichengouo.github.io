@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://beichengouo.github.io/2023/05/08/blog3/</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/2023/05/05/qbot/</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://beichengouo.github.io/2023/05/08/blog2/</loc>
     
     <lastmod>2023-05-08</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://beichengouo.github.io/2023/05/07/blog/</loc>
-    
-    <lastmod>2023-05-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/05/qbot/</loc>
     
     <lastmod>2023-05-08</lastmod>
     
@@ -106,7 +115,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/tags/test/</loc>
+    <loc>https://beichengouo.github.io/tags/%E5%AE%9E%E7%94%A8%E5%90%91/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -129,7 +138,7 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/categories/test/</loc>
+    <loc>https://beichengouo.github.io/categories/%E5%AE%9E%E7%94%A8%E5%90%91/</loc>
     <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

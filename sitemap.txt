@@ -1,7 +1,8 @@
+https://beichengouo.github.io/2023/05/08/blog3/
+https://beichengouo.github.io/2023/05/05/qbot/
 https://beichengouo.github.io/2023/05/08/blog2/
 https://beichengouo.github.io/2023/05/08/bilibilitest/
 https://beichengouo.github.io/2023/05/07/blog/
-https://beichengouo.github.io/2023/05/05/qbot/
 https://beichengouo.github.io/2023/05/05/hello-world/
 https://beichengouo.github.io/Gallery/index.html
 https://beichengouo.github.io/about/index.html
@@ -10,7 +11,7 @@ https://beichengouo.github.io/movies/index.html
 https://beichengouo.github.io/
 https://beichengouo.github.io/tags/blog/
 https://beichengouo.github.io/tags/qbot/
-https://beichengouo.github.io/tags/test/
+https://beichengouo.github.io/tags/%E5%AE%9E%E7%94%A8%E5%90%91/
 https://beichengouo.github.io/categories/blog/
 https://beichengouo.github.io/categories/qbot/
-https://beichengouo.github.io/categories/test/
+https://beichengouo.github.io/categories/%E5%AE%9E%E7%94%A8%E5%90%91/
