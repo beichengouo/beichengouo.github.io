@@ -3,11 +3,11 @@
   <title>北辰&#39;s Blog</title>
   
   <subtitle>Hello World</subtitle>
-  <link href="https://beichengouo.github.io/beichengouo/atom.xml" rel="self"/>
+  <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
-  <link href="https://beichengouo.github.io/beichengouo/"/>
+  <link href="https://beichengouo.github.io/"/>
   <updated>2023-05-08T14:49:16.975Z</updated>
-  <id>https://beichengouo.github.io/beichengouo/</id>
+  <id>https://beichengouo.github.io/</id>
   
   <author>
     <name>北辰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>实用资源分享(百度云)</title>
-    <link href="https://beichengouo.github.io/beichengouo/2023/05/08/ziyuan/"/>
-    <id>https://beichengouo.github.io/beichengouo/2023/05/08/ziyuan/</id>
+    <link href="https://beichengouo.github.io/2023/05/08/ziyuan/"/>
+    <id>https://beichengouo.github.io/2023/05/08/ziyuan/</id>
     <published>2023-05-08T14:25:57.964Z</published>
     <updated>2023-05-08T14:49:16.975Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/beichengouo/categories/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="https://beichengouo.github.io/categories/%E6%9D%82%E9%A1%B9/"/>
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/beichengouo/tags/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="https://beichengouo.github.io/tags/%E6%9D%82%E9%A1%B9/"/>
     
   </entry>
   
   <entry>
     <title>Ai绘画 《无人之城与少女》</title>
-    <link href="https://beichengouo.github.io/beichengouo/2023/05/08/aihuihua/"/>
-    <id>https://beichengouo.github.io/beichengouo/2023/05/08/aihuihua/</id>
+    <link href="https://beichengouo.github.io/2023/05/08/aihuihua/"/>
+    <id>https://beichengouo.github.io/2023/05/08/aihuihua/</id>
     <published>2023-05-08T08:48:46.037Z</published>
     <updated>2023-05-08T14:51:15.043Z</updated>
     
@@ -57,17 +57,17 @@
     
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/beichengouo/categories/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="https://beichengouo.github.io/categories/%E6%9D%82%E9%A1%B9/"/>
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/beichengouo/tags/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="https://beichengouo.github.io/tags/%E6%9D%82%E9%A1%B9/"/>
     
   </entry>
   
   <entry>
     <title>blog更新工作进展(2023/5/8)</title>
-    <link href="https://beichengouo.github.io/beichengouo/2023/05/08/blog2/"/>
-    <id>https://beichengouo.github.io/beichengouo/2023/05/08/blog2/</id>
+    <link href="https://beichengouo.github.io/2023/05/08/blog2/"/>
+    <id>https://beichengouo.github.io/2023/05/08/blog2/</id>
     <published>2023-05-08T08:00:42.337Z</published>
     <updated>2023-05-08T14:40:42.430Z</updated>
     
@@ -82,17 +82,17 @@
     
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/beichengouo/categories/blog/"/>
+    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/beichengouo/tags/blog/"/>
+    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>blog更新工作进展(2023/5/7)</title>
-    <link href="https://beichengouo.github.io/beichengouo/2023/05/07/blog/"/>
-    <id>https://beichengouo.github.io/beichengouo/2023/05/07/blog/</id>
+    <link href="https://beichengouo.github.io/2023/05/07/blog/"/>
+    <id>https://beichengouo.github.io/2023/05/07/blog/</id>
     <published>2023-05-07T05:39:36.261Z</published>
     <updated>2023-05-08T08:14:02.573Z</updated>
     
@@ -107,17 +107,17 @@
     
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/beichengouo/categories/blog/"/>
+    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/beichengouo/tags/blog/"/>
+    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title>Qbot+gpt搭建</title>
-    <link href="https://beichengouo.github.io/beichengouo/2023/05/05/qbot/"/>
-    <id>https://beichengouo.github.io/beichengouo/2023/05/05/qbot/</id>
+    <link href="https://beichengouo.github.io/2023/05/05/qbot/"/>
+    <id>https://beichengouo.github.io/2023/05/05/qbot/</id>
     <published>2023-05-05T14:40:02.615Z</published>
     <updated>2023-05-08T14:46:53.322Z</updated>
     
@@ -132,17 +132,17 @@
     
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/beichengouo/categories/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="https://beichengouo.github.io/categories/%E6%9D%82%E9%A1%B9/"/>
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/beichengouo/tags/%E6%9D%82%E9%A1%B9/"/>
+    <category term="杂项" scheme="https://beichengouo.github.io/tags/%E6%9D%82%E9%A1%B9/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://beichengouo.github.io/beichengouo/2023/05/05/hello-world/"/>
-    <id>https://beichengouo.github.io/beichengouo/2023/05/05/hello-world/</id>
+    <link href="https://beichengouo.github.io/2023/05/05/hello-world/"/>
+    <id>https://beichengouo.github.io/2023/05/05/hello-world/</id>
     <published>2023-05-05T11:58:48.798Z</published>
     <updated>2023-05-08T14:46:24.055Z</updated>
     
@@ -156,10 +156,10 @@
     
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/beichengouo/categories/blog/"/>
+    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/beichengouo/tags/blog/"/>
+    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
     
   </entry>
   
