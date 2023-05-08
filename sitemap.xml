@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://beichengouo.github.io/2023/05/05/hello-world/</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/2023/05/05/qbot/</loc>
+    
+    <lastmod>2023-05-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://beichengouo.github.io/2023/05/07/blog/</loc>
     
     <lastmod>2023-05-07</lastmod>
@@ -12,24 +30,6 @@
   
   <url>
     <loc>https://beichengouo.github.io/Gallery/index.html</loc>
-    
-    <lastmod>2023-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/05/qbot/</loc>
-    
-    <lastmod>2023-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/05/hello-world/</loc>
     
     <lastmod>2023-05-07</lastmod>
     
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://beichengouo.github.io/</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,14 +75,14 @@
   
   <url>
     <loc>https://beichengouo.github.io/tags/blog/</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beichengouo.github.io/tags/qbot/</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -91,14 +91,14 @@
   
   <url>
     <loc>https://beichengouo.github.io/categories/blog/</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://beichengouo.github.io/categories/qbot/</loc>
-    <lastmod>2023-05-07</lastmod>
+    <lastmod>2023-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
