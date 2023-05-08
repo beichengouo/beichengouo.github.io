@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/"/>
-  <updated>2023-05-08T08:04:02.703Z</updated>
+  <updated>2023-05-08T09:03:35.021Z</updated>
   <id>https://beichengouo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>b站播放器测试文章</title>
+    <link href="https://beichengouo.github.io/2023/05/08/bilibilitest/"/>
+    <id>https://beichengouo.github.io/2023/05/08/bilibilitest/</id>
+    <published>2023-05-08T08:48:46.037Z</published>
+    <updated>2023-05-08T09:03:35.021Z</updated>
+    
+    <content type="html"><![CDATA[<p>b站播放器测试文章</p><div align=center class="aspect-ratio"><iframe src="//player.bilibili.com/player.html?aid=226741779&bvid=BV1th411V7S9&cid=1072864481&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;b站播放器测试文章&lt;/p&gt;
+&lt;div align=center class=&quot;aspect-ratio&quot;&gt;
+
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=226741779&amp;bvid=BV1th411V7S9&amp;cid</summary>
+      
+    
+    
+    
+    <category term="test" scheme="https://beichengouo.github.io/categories/test/"/>
+    
+    
+    <category term="test" scheme="https://beichengouo.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>blog更新工作进展(2023/5/8)</title>

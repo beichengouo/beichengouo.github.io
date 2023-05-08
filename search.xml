@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>b站播放器测试文章</title>
+      <link href="/2023/05/08/bilibilitest/"/>
+      <url>/2023/05/08/bilibilitest/</url>
+      
+        <content type="html"><![CDATA[<p>b站播放器测试文章</p><div align=center class="aspect-ratio"><iframe src="//player.bilibili.com/player.html?aid=226741779&bvid=BV1th411V7S9&cid=1072864481&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>blog更新工作进展(2023/5/8)</title>
       <link href="/2023/05/08/blog2/"/>
       <url>/2023/05/08/blog2/</url>
