@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/"/>
-  <updated>2023-05-08T06:57:19.529Z</updated>
+  <updated>2023-05-08T08:04:02.703Z</updated>
   <id>https://beichengouo.github.io/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>blog更新工作进展(2023/5/8)</title>
+    <link href="https://beichengouo.github.io/2023/05/08/blog2/"/>
+    <id>https://beichengouo.github.io/2023/05/08/blog2/</id>
+    <published>2023-05-08T08:00:42.337Z</published>
+    <updated>2023-05-08T08:04:02.703Z</updated>
+    
+    <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-8："><a href="#2023-x2F-5-x2F-8：" class="headerlink" title="2023&#x2F;5&#x2F;8："></a>2023&#x2F;5&#x2F;8：</h3><p>1.搜索功能已修复，可以正常使用</p><p><img src="/img/1/04.png" alt="04"></p><h2 id="目前bug（2023-x2F-5-x2F-8）："><a href="#目前bug（2023-x2F-5-x2F-8）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;8）："></a>目前bug（2023&#x2F;5&#x2F;8）：</h2><p>加载动画仍有问题，不打算用加载动画了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本篇博客记录一下本站搭建工作以及后续更新。&lt;/p&gt;
+&lt;h2 id=&quot;更新记录：&quot;&gt;&lt;a href=&quot;#更新记录：&quot; class=&quot;headerlink&quot; title=&quot;更新记录：&quot;&gt;&lt;/a&gt;更新记录：&lt;/h2&gt;&lt;h3 id=&quot;2023-x2F-5-x2F-8：&quot;&gt;&lt;a hr</summary>
+      
+    
+    
+    
+    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
+    
+    
+    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>blog更新工作进展5/7</title>
     <link href="https://beichengouo.github.io/2023/05/07/blog/"/>
     <id>https://beichengouo.github.io/2023/05/07/blog/</id>
     <published>2023-05-07T05:39:36.261Z</published>
-    <updated>2023-05-08T06:57:19.529Z</updated>
+    <updated>2023-05-08T08:02:09.257Z</updated>
     
-    <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top。</p><p>2.pc端网站背景增加动态彩带特效。</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><p>4.调整了网页整体布局。</p><p>5.更新了相册。</p><p>6.增加了文章封面和tags，调整了文章顺序，增加了置顶文章。</p><h2 id="目前bug（2023-x2F-5-x2F-8）："><a href="#目前bug（2023-x2F-5-x2F-8）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;8）："></a>目前bug（2023&#x2F;5&#x2F;8）：</h2><p>本地端搜索栏显示正常，部署到服务器上会显示在最底下，折腾了一下午暂时无法解决。大概率是github作为服务器加载外部网站上的js和css加载太慢了的问题。应该部署到自己服务器上不会出错。目前暂时把搜索和加载动画功能关闭了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
+    <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top。</p><p>2.pc端网站背景增加动态彩带特效。</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><p>4.调整了网页整体布局。</p><p>5.更新了相册。</p><p>6.增加了文章封面和tags，调整了文章顺序，增加了置顶文章。</p><h2 id="目前bug（2023-x2F-5-x2F-7）："><a href="#目前bug（2023-x2F-5-x2F-7）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;7）："></a>目前bug（2023&#x2F;5&#x2F;7）：</h2><p>本地端搜索栏显示正常，部署到服务器上会显示在最底下，折腾了一下午暂时无法解决。大概率是github作为服务器加载外部网站上的js和css加载太慢了的问题。应该部署到自己服务器上不会出错。目前暂时把搜索和加载动画功能关闭了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
     
     
       
@@ -46,7 +71,7 @@
     <link href="https://beichengouo.github.io/2023/05/05/qbot/"/>
     <id>https://beichengouo.github.io/2023/05/05/qbot/</id>
     <published>2023-05-05T14:40:02.615Z</published>
-    <updated>2023-05-08T06:47:10.146Z</updated>
+    <updated>2023-05-08T08:02:01.130Z</updated>
     
     <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），标注❤️的则为原版没有的内容。</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/img/1/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/img/1/02.png" alt="02"></p><h3 id="指令功能介绍："><a href="#指令功能介绍：" class="headerlink" title="指令功能介绍："></a>指令功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被风控无法在qq群内回复指令大全，私聊正常。</p><p>设置人格：设置gpt初始人格。格式如 设置人格 xxxxxx（描述）</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。❤️</p><p>私人模式：开启后非管理无法与机器人对话。❤️</p><p>变xxx：切换对应预置人格。❤️</p><p>醒醒&#x2F;昏睡：醒醒后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。❤️</p><p>设备信息：显示服务器各参数详细信息。❤️</p><p>磁盘信息：显示服务器磁盘内存信息。❤️</p><p>拉黑检测：检测到指定敏感关键词将自动拉黑对方。❤️</p><p>初始自动检测：第一次对话将自动识别非管理和管理用户。用于加载不同初始设置（比如加载不同人格）。❤️</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-5-x2F-1"><a href="#2023-x2F-5-x2F-1" class="headerlink" title="2023&#x2F;5&#x2F;1"></a>2023&#x2F;5&#x2F;1</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情。❤️</p><p><img src="/img/1/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况。</p><p>3.优化了回复概率问题。</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）。</p>]]></content>
     
