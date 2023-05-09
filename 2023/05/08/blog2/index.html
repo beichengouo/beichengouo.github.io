@@ -177,8 +177,8 @@
   function initWaline () {
     const waline = Waline.init(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'https://www.beichengouoblog.asia/',
-      pageview: ,
+      serverURL: 'waline-five-azure.vercel.app',
+      pageview: false,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: false,
@@ -197,8 +197,8 @@
   }
 }
 
-if ('Waline' === 'Waline' || !false) {
-  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+if ('Waline' === 'Waline' || !true) {
+  if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
   else setTimeout(loadWaline, 0)
 } else {
   function loadOtherComment () {
