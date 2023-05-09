@@ -8,7 +8,7 @@
       <link href="/2023/05/09/blog3/"/>
       <url>/2023/05/09/blog3/</url>
       
-        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-9："><a href="#2023-x2F-5-x2F-9：" class="headerlink" title="2023&#x2F;5&#x2F;9："></a>2023&#x2F;5&#x2F;9：</h3><p>1.新增了留言板功能。</p><p><img src="/img/1/07.png" alt="07"></p><p>2.添加了Waline评论系统。</p><p><img src="/img/1/08.png" alt="08"></p><h2 id="目前bug（2023-x2F-5-x2F-9）："><a href="#目前bug（2023-x2F-5-x2F-9）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;9）："></a>目前bug（2023&#x2F;5&#x2F;9）：</h2><p>暂无。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
+        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-9："><a href="#2023-x2F-5-x2F-9：" class="headerlink" title="2023&#x2F;5&#x2F;9："></a>2023&#x2F;5&#x2F;9：</h3><p>1.新增了留言板功能。</p><p><img src="/img/1/07.png" alt="07"></p><p>2.添加了Waline评论系统。×</p><p>（在尝试修复国内无法看到评论的bug后，我成功的把原来的waline整个东西搞没了，后续又折腾了好久没折腾回来）</p><p>然后我改用twikoo了√</p><p><img src="/img/1/08.png" alt="08"></p><h2 id="目前bug（2023-x2F-5-x2F-9）："><a href="#目前bug（2023-x2F-5-x2F-9）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;9）："></a>目前bug（2023&#x2F;5&#x2F;9）：</h2><p>暂无。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
       
       
       <categories>
