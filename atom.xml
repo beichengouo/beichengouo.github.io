@@ -45,7 +45,7 @@
     <link href="https://beichengouo.github.io/2023/05/08/aihuihua/"/>
     <id>https://beichengouo.github.io/2023/05/08/aihuihua/</id>
     <published>2023-05-08T08:48:46.037Z</published>
-    <updated>2023-05-08T16:22:59.184Z</updated>
+    <updated>2023-05-09T01:33:48.181Z</updated>
     
     <content type="html"><![CDATA[<h2 id="《无人之城与少女》"><a href="#《无人之城与少女》" class="headerlink" title="《无人之城与少女》"></a>《无人之城与少女》</h2><div align=center class="aspect-ratio"><iframe src="//player.bilibili.com/player.html?aid=226741779&bvid=BV1th411V7S9&cid=1072864481&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>]]></content>
     
@@ -57,10 +57,10 @@
     
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/categories/%E6%9D%82%E9%A1%B9/"/>
+    <category term="Ai人工智能" scheme="https://beichengouo.github.io/categories/Ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/tags/%E6%9D%82%E9%A1%B9/"/>
+    <category term="Ai" scheme="https://beichengouo.github.io/tags/Ai/"/>
     
   </entry>
   
@@ -69,7 +69,7 @@
     <link href="https://beichengouo.github.io/2023/05/08/blog2/"/>
     <id>https://beichengouo.github.io/2023/05/08/blog2/</id>
     <published>2023-05-08T08:00:42.337Z</published>
-    <updated>2023-05-08T16:21:49.225Z</updated>
+    <updated>2023-05-09T01:34:52.902Z</updated>
     
     <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-8："><a href="#2023-x2F-5-x2F-8：" class="headerlink" title="2023&#x2F;5&#x2F;8："></a>2023&#x2F;5&#x2F;8：</h3><p>1.搜索功能已修复，可以正常使用</p><p><img src="/img/1/04.png" alt="04"></p><p>2.增加了全程吸底的音乐播放器</p><p><img src="/img/1/05.png" alt="05"></p><p>3.适配了b站视频。</p><p>4.增加alice挂件(pc端才有)，alice女儿可爱捏。</p><p><img src="/img/1/06.png" alt="06"></p><h2 id="目前bug（2023-x2F-5-x2F-8）："><a href="#目前bug（2023-x2F-5-x2F-8）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;8）："></a>目前bug（2023&#x2F;5&#x2F;8）：</h2><p>加载动画仍有问题，不打算用加载动画了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
     
@@ -82,10 +82,12 @@
     
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
+    <category term="blog更新日志" scheme="https://beichengouo.github.io/categories/blog%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
     
     
     <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
+    
+    <category term="日志" scheme="https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
@@ -94,7 +96,7 @@
     <link href="https://beichengouo.github.io/2023/05/07/blog/"/>
     <id>https://beichengouo.github.io/2023/05/07/blog/</id>
     <published>2023-05-07T05:39:36.261Z</published>
-    <updated>2023-05-08T16:22:15.592Z</updated>
+    <updated>2023-05-09T01:34:44.685Z</updated>
     
     <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top。</p><p>2.pc端网站背景增加动态彩带特效。</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><p>4.调整了网页整体布局。</p><p>5.更新了相册。</p><p>6.增加了文章封面和tags，调整了文章顺序，增加了置顶文章。</p><h2 id="目前bug（2023-x2F-5-x2F-7）："><a href="#目前bug（2023-x2F-5-x2F-7）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;7）："></a>目前bug（2023&#x2F;5&#x2F;7）：</h2><p>本地端搜索栏显示正常，部署到服务器上会显示在最底下，折腾了一下午暂时无法解决。大概率是github作为服务器加载外部网站上的js和css加载太慢了的问题。应该部署到自己服务器上不会出错。目前暂时把搜索和加载动画功能关闭了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
     
@@ -107,10 +109,12 @@
     
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
+    <category term="blog更新日志" scheme="https://beichengouo.github.io/categories/blog%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
     
     
     <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
+    
+    <category term="日志" scheme="https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
@@ -119,23 +123,23 @@
     <link href="https://beichengouo.github.io/2023/05/05/qbot/"/>
     <id>https://beichengouo.github.io/2023/05/05/qbot/</id>
     <published>2023-05-05T14:40:02.615Z</published>
-    <updated>2023-05-08T16:20:40.151Z</updated>
+    <updated>2023-05-09T01:33:34.441Z</updated>
     
-    <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），标注❤️的则为原版没有的内容。</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/img/1/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/img/1/02.png" alt="02"></p><h3 id="指令功能介绍："><a href="#指令功能介绍：" class="headerlink" title="指令功能介绍："></a>指令功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被风控无法在qq群内回复指令大全，私聊正常。</p><p>设置人格：设置gpt初始人格。格式如 设置人格 xxxxxx（描述）</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。❤️</p><p>私人模式：开启后非管理无法与机器人对话。❤️</p><p>变xxx：切换对应预置人格。❤️</p><p>醒醒&#x2F;昏睡：醒醒后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。❤️</p><p>设备信息：显示服务器各参数详细信息。❤️</p><p>磁盘信息：显示服务器磁盘内存信息。❤️</p><p>拉黑检测：检测到指定敏感关键词将自动拉黑对方。❤️</p><p>初始自动检测：第一次对话将自动识别非管理和管理用户。用于加载不同初始设置（比如加载不同人格）。❤️</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-5-x2F-1"><a href="#2023-x2F-5-x2F-1" class="headerlink" title="2023&#x2F;5&#x2F;1"></a>2023&#x2F;5&#x2F;1</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情。❤️</p><p><img src="/img/1/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况。</p><p>3.优化了回复概率问题。</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）。</p>]]></content>
+    <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），已部署在海外服务器上，秒回复，标注❤️的则为原版没有的内容。</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/img/1/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/img/1/02.png" alt="02"></p><h3 id="指令功能介绍："><a href="#指令功能介绍：" class="headerlink" title="指令功能介绍："></a>指令功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被风控无法在qq群内回复指令大全，私聊正常。</p><p>设置人格：设置gpt初始人格。格式如 设置人格 xxxxxx（描述）</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。❤️</p><p>私人模式：开启后非管理无法与机器人对话。❤️</p><p>变xxx：切换对应预置人格。❤️</p><p>醒醒&#x2F;昏睡：醒醒后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。❤️</p><p>设备信息：显示服务器各参数详细信息。❤️</p><p>磁盘信息：显示服务器磁盘内存信息。❤️</p><p>拉黑检测：检测到指定敏感关键词将自动拉黑对方。❤️</p><p>初始自动检测：第一次对话将自动识别非管理和管理用户。用于加载不同初始设置（比如加载不同人格）。❤️</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-5-x2F-1"><a href="#2023-x2F-5-x2F-1" class="headerlink" title="2023&#x2F;5&#x2F;1"></a>2023&#x2F;5&#x2F;1</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情。❤️</p><p><img src="/img/1/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况。</p><p>3.优化了回复概率问题。</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），标注❤️的则为原版没有的内容。&lt;/p&gt;
-&lt;h2 id=&quot;当前机器人功能游览&quot;&gt;&lt;a href=</summary>
+    <summary type="html">&lt;p&gt;本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），已部署在海外服务器上，秒回复，标注❤️的则为原版没有的内容。&lt;/p&gt;
+&lt;h2 id=&quot;当前机器</summary>
       
     
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/categories/%E6%9D%82%E9%A1%B9/"/>
+    <category term="Ai人工智能" scheme="https://beichengouo.github.io/categories/Ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="杂项" scheme="https://beichengouo.github.io/tags/%E6%9D%82%E9%A1%B9/"/>
+    <category term="Ai" scheme="https://beichengouo.github.io/tags/Ai/"/>
     
   </entry>
   
@@ -144,7 +148,7 @@
     <link href="https://beichengouo.github.io/2023/05/05/hello-world/"/>
     <id>https://beichengouo.github.io/2023/05/05/hello-world/</id>
     <published>2023-05-05T11:58:48.798Z</published>
-    <updated>2023-05-08T16:21:08.802Z</updated>
+    <updated>2023-05-09T01:35:02.552Z</updated>
     
     <content type="html"><![CDATA[<p>本博客使用 <a href="https://hexo.io/">Hexo</a>制作! 这是我的第一篇文章. 查看 <a href="https://hexo.io/docs/">文档</a> 获得更多信息. 如果你在使用Hexo中遇到任何问题，你可以在 <a href="https://hexo.io/docs/troubleshooting.html">故障排除</a> 中找到答案， 或者你可以在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a>上问我.</p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="命令：Create-a-new-post"><a href="#命令：Create-a-new-post" class="headerlink" title="命令：Create a new post"></a>命令：Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="命令：Run-server"><a href="#命令：Run-server" class="headerlink" title="命令：Run server"></a>命令：Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="命令：Generate-static-files"><a href="#命令：Generate-static-files" class="headerlink" title="命令：Generate static files"></a>命令：Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="命令：Deploy-to-remote-sites"><a href="#命令：Deploy-to-remote-sites" class="headerlink" title="命令：Deploy to remote sites"></a>命令：Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -156,10 +160,12 @@
     
     
     
-    <category term="blog" scheme="https://beichengouo.github.io/categories/blog/"/>
+    <category term="blog更新日志" scheme="https://beichengouo.github.io/categories/blog%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
     
     
     <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
+    
+    <category term="日志" scheme="https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
