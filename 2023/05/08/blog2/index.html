@@ -177,12 +177,12 @@
   function initWaline () {
     const waline = Waline.init(Object.assign({
       el: '#waline-wrap',
-      serverURL: 'beichengouoblog.asia',
-      pageview: false,
+      serverURL: 'waline-five-azure.vercel.app/',
+      pageview: ,
       dark: 'html[data-theme="dark"]',
       path: window.location.pathname,
       comment: false,
-    }, {"locale":{"nick":"昵称","mail":"邮箱","link":"你的网站","placeholder":"你这么可爱一定会文明评论的吧～(填写邮箱可以收到回复通知哦)","requiredMeta":[],"mailError":"请填写正确的邮件地址","sofa":"快来抢占沙发~","level0":"杂鱼酱","level1":"补课部","level2":"防务护卫队","level3":"实现正义部","level4":"研讨会","level5":"Sensei"},"emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji","https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili"]}))
+    }, {"locale":{"nick":"昵称","mail":"邮箱","placeholder":"你这么可爱一定会文明评论的吧～(填写邮箱可以收到回复通知哦)","requiredMeta":[],"mailError":"请填写正确的邮件地址","sofa":"快来抢占沙发~","level0":"杂鱼酱","level1":"补课部","level2":"防务护卫队","level3":"实现正义部","level4":"研讨会","level5":"Sensei"},"emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji","https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs","https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili"]}))
   }
 
   const walineCSSLoad = document.getElementById('waline-css')
@@ -197,8 +197,8 @@
   }
 }
 
-if ('Waline' === 'Waline' || !true) {
-  if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
   else setTimeout(loadWaline, 0)
 } else {
   function loadOtherComment () {
