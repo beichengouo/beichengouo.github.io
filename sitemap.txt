@@ -1,3 +1,4 @@
+https://beichengouo.github.io/2023/05/09/blog3/
 https://beichengouo.github.io/2023/05/08/ziyuan/
 https://beichengouo.github.io/2023/05/10/wallpaper/
 https://beichengouo.github.io/Gallery/wallpaper/index.html
@@ -5,7 +6,6 @@ https://beichengouo.github.io/Gallery/index.html
 https://beichengouo.github.io/categories/index.html
 https://beichengouo.github.io/tags/index.html
 https://beichengouo.github.io/link/index.html
-https://beichengouo.github.io/2023/05/09/blog3/
 https://beichengouo.github.io/2023/05/05/hello-world/
 https://beichengouo.github.io/2023/05/08/blog2/
 https://beichengouo.github.io/2023/05/07/blog/
