@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://beichengouo.github.io/2023/05/10/blogcourse/</loc>
+    
+    <lastmod>2023-05-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://beichengouo.github.io/2023/05/10/blog4/</loc>
     
     <lastmod>2023-05-10</lastmod>
@@ -196,6 +205,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://beichengouo.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -221,6 +237,13 @@
   
   <url>
     <loc>https://beichengouo.github.io/categories/%E5%A3%81%E7%BA%B8/</loc>
+    <lastmod>2023-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2023-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
