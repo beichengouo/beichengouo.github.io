@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/"/>
-  <updated>2023-05-10T09:19:14.365Z</updated>
+  <updated>2023-05-12T06:28:07.738Z</updated>
   <id>https://beichengouo.github.io/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>03-Java基础知识-数据类型</title>
+    <link href="https://beichengouo.github.io/2023/05/12/java3/"/>
+    <id>https://beichengouo.github.io/2023/05/12/java3/</id>
+    <published>2023-05-12T06:27:33.301Z</published>
+    <updated>2023-05-12T06:28:07.738Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h1><p>Java是一门强类型语言，变量必须先声明并指定数据类型，然后才能进行使用。Java提供了八种基本数据类型和引用类型，本文将简单介绍Java的数据类型。</p><h2 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h2><p>Java的八种基本数据类型分为四类，分别是整型、浮点型、字符型和布尔型。</p><h3 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h3><p>整型包括四种类型，分别是<code>byte</code>、<code>short</code>、<code>int</code>和<code>long</code>。它们分别占用1、2、4和8个字节，表示的范围也不同，如下表所示：</p><table><thead><tr><th>数据类型</th><th>占用字节数</th><th>表示范围</th></tr></thead><tbody><tr><td>byte</td><td>1</td><td>-128 ~ 127</td></tr><tr><td>short</td><td>2</td><td>-32768 ~ 32767</td></tr><tr><td>int</td><td>4</td><td>-2147483648 ~ 2147483647</td></tr><tr><td>long</td><td>8</td><td>-9223372036854775808 ~ 9223372036854775807</td></tr></tbody></table><h3 id="浮点型"><a href="#浮点型" class="headerlink" title="浮点型"></a>浮点型</h3><p>浮点型包括两种类型，分别是<code>float</code>和<code>double</code>。它们分别占用4和8个字节，表示的范围也不同，如下表所示：</p><table><thead><tr><th>数据类型</th><th>占用字节数</th><th>表示范围</th></tr></thead><tbody><tr><td>float</td><td>4</td><td>1.4E-45 ~ 3.4028235E+38</td></tr><tr><td>double</td><td>8</td><td>4.9E-324 ~ 1.797693134E+308</td></tr></tbody></table><h3 id="字符型"><a href="#字符型" class="headerlink" title="字符型"></a>字符型</h3><p>字符型只有一种类型，即<code>char</code>。它占用2个字节，可以表示所有Unicode字符，表示范围为0 ~ 65535。</p><h3 id="布尔型"><a href="#布尔型" class="headerlink" title="布尔型"></a>布尔型</h3><p>布尔型只有一种类型，即<code>boolean</code>。它只有两个取值，分别为<code>true</code>和<code>false</code>，占用1个字节。</p><h2 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h2><p>Java的引用类型指除了基本数据类型之外的类型，包括类、接口、数组等。引用类型变量存储的是对象的地址，而不是对象本身。引用类型变量的默认值为<code>null</code>。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文简单介绍了Java的八种基本数据类型和引用类型。在实际开发中，我们需要根据需求选择适当的数据类型，以免浪费内存或出现数据精度等问题。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Java数据类型&quot;&gt;&lt;a href=&quot;#Java数据类型&quot; class=&quot;headerlink&quot; title=&quot;Java数据类型&quot;&gt;&lt;/a&gt;Java数据类型&lt;/h1&gt;&lt;p&gt;Java是一门强类型语言，变量必须先声明并指定数据类型，然后才能进行使用。Java提供了八种</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="https://beichengouo.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="教程" scheme="https://beichengouo.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>01-Java基础知识-简介</title>
+    <link href="https://beichengouo.github.io/2023/05/12/java1/"/>
+    <id>https://beichengouo.github.io/2023/05/12/java1/</id>
+    <published>2023-05-12T06:25:47.330Z</published>
+    <updated>2023-05-12T06:26:59.190Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java简介"><a href="#Java简介" class="headerlink" title="Java简介"></a>Java简介</h1><p>Java是一种面向对象的编程语言，由Sun Microsystems在1995年推出。Java的特点是跨平台、简单易学、安全可靠、支持多线程、面向对象等，这些特点使得Java成为了全球最受欢迎的编程语言之一。</p><h2 id="跨平台"><a href="#跨平台" class="headerlink" title="跨平台"></a>跨平台</h2><p>Java的跨平台性是由其虚拟机（JVM）实现的。Java程序在编译之后会生成一种特殊的字节码格式，这种字节码可以在任何能够运行Java虚拟机的平台上执行。这意味着，一次编译可以在不同的操作系统和计算机上运行，避免了因为操作系统或硬件的差异而导致的不兼容性问题。</p><h2 id="简单易学"><a href="#简单易学" class="headerlink" title="简单易学"></a>简单易学</h2><p>Java的语法与C++和C语言比较相似，但是相对来说更加简单。Java取消了一些C++中比较复杂的特性，如指针、多继承等。同时，Java还提供了很多高级特性，如自动内存管理、垃圾回收、异常处理等，这些特性都大大减轻了开发人员的工作量，降低了出错的概率。</p><h2 id="安全可靠"><a href="#安全可靠" class="headerlink" title="安全可靠"></a>安全可靠</h2><p>Java提供了很多安全机制，如安全沙箱、类加载器等，这些机制都可以保证Java程序的安全性。Java也提供了一些强制类型检查、空指针检查等功能，这些功能也有助于减少程序中的错误。</p><h2 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h2><p>Java提供了丰富的多线程机制，允许开发人员使用多线程来充分利用多核CPU，提高程序的执行效率。Java的多线程机制包括线程类、线程同步、线程池等。</p><h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><p>Java是一种面向对象的编程语言，所有的Java程序都是由对象组成的。Java的面向对象机制包括类、对象、封装、继承、多态等。面向对象的编程思想能够提高程序的可维护性、可扩展性、可重用性。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Java作为一种跨平台、简单易学、安全可靠、支持多线程、面向对象等的编程语言，应用广泛。Java在各种领域中都有广泛的应用，如Web开发、移动应用开发、桌面应用开发、大数据处理等。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Java简介&quot;&gt;&lt;a href=&quot;#Java简介&quot; class=&quot;headerlink&quot; title=&quot;Java简介&quot;&gt;&lt;/a&gt;Java简介&lt;/h1&gt;&lt;p&gt;Java是一种面向对象的编程语言，由Sun Microsystems在1995年推出。Java的特点是跨平台</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="https://beichengouo.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="教程" scheme="https://beichengouo.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>02-Java基础知识-变量</title>
+    <link href="https://beichengouo.github.io/2023/05/12/java2/"/>
+    <id>https://beichengouo.github.io/2023/05/12/java2/</id>
+    <published>2023-05-12T06:18:21.546Z</published>
+    <updated>2023-05-12T06:25:00.819Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java中的变量"><a href="#Java中的变量" class="headerlink" title="Java中的变量"></a>Java中的变量</h1><p>在Java编程中，变量是存储数据的最基本的单元。变量可以保存各种类型的数据，如整数、浮点数、字符、字符串等等。本文将介绍Java中的变量类型、命名规则和作用域等方面的内容。</p><h2 id="变量类型"><a href="#变量类型" class="headerlink" title="变量类型"></a>变量类型</h2><p>Java中的变量可以分为以下几种类型：</p><h3 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h3><p>Java中的基本类型有8种，分别为：</p><ul><li>byte：1字节，范围为-128 ~ 127。</li><li>short：2字节，范围为-32768 ~ 32767。</li><li>int：4字节，范围为-2147483648 ~ 2147483647。</li><li>long：8字节，范围为-9223372036854775808 ~ 9223372036854775807。</li><li>float：4字节，范围为1.4E-45 ~ 3.4028235E38。</li><li>double：8字节，范围为4.9E-324 ~ 1.7976931348623157E308。</li><li>char：2字节，范围为0 ~ 65535。</li><li>boolean：1位，只有两个值：true和false。</li></ul><h3 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h3><p>Java中的引用类型指的是对象，这些对象在堆中分配，变量在栈中存储一个引用指向堆中的对象。Java中的引用类型有类、接口、数组、枚举等等。</p><h2 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h2><p>Java中的变量名必须满足以下规则：</p><ul><li>变量名必须以字母、下划线（_）或美元符号（$）开始。</li><li>变量名不能以数字开头。</li><li>变量名只能包含字母、数字、下划线或美元符号。</li><li>变量名区分大小写。</li><li>变量名不能是Java关键字和保留字。</li></ul><h2 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h2><p>Java中的变量有不同的作用域。变量的作用域指的是变量在程序中可见的范围。在Java中，变量的作用域可以分为以下几种：</p><h3 id="类变量（静态变量）"><a href="#类变量（静态变量）" class="headerlink" title="类变量（静态变量）"></a>类变量（静态变量）</h3><p>类变量是定义在类中的静态变量。这些变量被所有该类的对象共享。在类的定义中使用static关键字定义。</p><h3 id="实例变量"><a href="#实例变量" class="headerlink" title="实例变量"></a>实例变量</h3><p>实例变量是定义在类中，但在方法、语句块或构造函数之外的变量。每个对象都有一份实例变量的副本。</p><h3 id="局部变量"><a href="#局部变量" class="headerlink" title="局部变量"></a>局部变量</h3><p>局部变量是定义在方法、语句块或构造函数中的变量。这些变量只在方法、语句块或构造函数中有效。</p><h2 id="变量的声明和初始化"><a href="#变量的声明和初始化" class="headerlink" title="变量的声明和初始化"></a>变量的声明和初始化</h2><p>Java中的变量需要先声明后使用。声明变量时需要指定变量的类型，变量名以及作用域。变量的初始化指的是为变量赋初值。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Java中的变量&quot;&gt;&lt;a href=&quot;#Java中的变量&quot; class=&quot;headerlink&quot; title=&quot;Java中的变量&quot;&gt;&lt;/a&gt;Java中的变量&lt;/h1&gt;&lt;p&gt;在Java编程中，变量是存储数据的最基本的单元。变量可以保存各种类型的数据，如整数、浮点数、</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="https://beichengouo.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="教程" scheme="https://beichengouo.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>教程 使用hexo搭建属于自己的blog</title>
