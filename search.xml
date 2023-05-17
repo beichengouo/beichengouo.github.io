@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>05-Java基础知识-数组</title>
+      <link href="/2023/05/17/java5/"/>
+      <url>/2023/05/17/java5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java数组介绍"><a href="#Java数组介绍" class="headerlink" title="Java数组介绍"></a>Java数组介绍</h1><p>数组是Java中最常用的数据结构之一，用于存储相同类型的多个元素。数组在Java中具有以下特点：</p><h2 id="1-声明和初始化数组"><a href="#1-声明和初始化数组" class="headerlink" title="1. 声明和初始化数组"></a>1. 声明和初始化数组</h2><p>在Java中，声明数组需要指定数组类型和数组名称，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] numbers; <span class="comment">//声明一个int类型的数组</span></span><br><span class="line">String[] names; <span class="comment">//声明一个String类型的数组</span></span><br></pre></td></tr></table></figure><p>数组的初始化可以通过两种方式进行：</p><h3 id="静态初始化"><a href="#静态初始化" class="headerlink" title="静态初始化"></a>静态初始化</h3><p>静态初始化指在声明数组的同时为数组元素赋初值，使用花括号 <code>&#123;&#125;</code> 来指定初始值，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] numbers = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;; <span class="comment">//初始化一个包含5个元素的int数组</span></span><br><span class="line">String[] names = &#123;<span class="string">&quot;Alice&quot;</span>, <span class="string">&quot;Bob&quot;</span>, <span class="string">&quot;Charlie&quot;</span>&#125;; <span class="comment">//初始化一个包含3个元素的String数组</span></span><br></pre></td></tr></table></figure><h3 id="动态初始化"><a href="#动态初始化" class="headerlink" title="动态初始化"></a>动态初始化</h3><p>动态初始化指先声明数组，然后通过 <code>new</code> 关键字为数组分配内存空间，再为数组元素赋值，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] numbers = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">5</span>]; <span class="comment">//声明一个包含5个元素的int数组</span></span><br><span class="line">numbers[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">numbers[<span class="number">1</span>] = <span class="number">2</span>;</span><br><span class="line">numbers[<span class="number">2</span>] = <span class="number">3</span>;</span><br><span class="line">numbers[<span class="number">3</span>] = <span class="number">4</span>;</span><br><span class="line">numbers[<span class="number">4</span>] = <span class="number">5</span>;</span><br></pre></td></tr></table></figure><h2 id="2-访问数组元素"><a href="#2-访问数组元素" class="headerlink" title="2. 访问数组元素"></a>2. 访问数组元素</h2><p>数组元素可以通过索引来访问，索引从0开始，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">firstNumber</span> <span class="operator">=</span> numbers[<span class="number">0</span>]; <span class="comment">//访问第一个元素</span></span><br><span class="line"><span class="type">String</span> <span class="variable">firstName</span> <span class="operator">=</span> names[<span class="number">0</span>]; <span class="comment">//访问第一个元素</span></span><br></pre></td></tr></table></figure><h2 id="3-数组长度"><a href="#3-数组长度" class="headerlink" title="3. 数组长度"></a>3. 数组长度</h2><p>可以使用 <code>length</code> 属性获取数组的长度，表示数组中元素的个数，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">length</span> <span class="operator">=</span> numbers.length; <span class="comment">//获取数组的长度</span></span><br></pre></td></tr></table></figure><h2 id="4-遍历数组"><a href="#4-遍历数组" class="headerlink" title="4. 遍历数组"></a>4. 遍历数组</h2><p>遍历数组可以使用循环结构，如 <code>for</code> 循环，来访问数组的每个元素，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; numbers.length; i++) &#123;</span><br><span class="line">    System.out.println(numbers[i]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="5-多维数组"><a href="#5-多维数组" class="headerlink" title="5. 多维数组"></a>5. 多维数组</h2><p>Java还支持多维数组，可以用来存储多个元素的表格或矩阵。多维数组可以通过在声明时指定多个维度来创建，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[][] matrix = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">3</span>][<span class="number">3</span>]; <span class="comment">//声明一个3x3的二维数组</span></span><br></pre></td></tr></table></figure><p>以上是对Java数组的简单介绍，数组在Java中具有重要的作用，可以方便地存储和操作大量相同类型的数据。通过掌握数组的使用方法，可以更好地处理和管理数据。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>04-Java基础知识-运算符</title>
+      <link href="/2023/05/17/java4/"/>
+      <url>/2023/05/17/java4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java运算符简介"><a href="#Java运算符简介" class="headerlink" title="Java运算符简介"></a>Java运算符简介</h1><p>在Java编程语言中，运算符用于执行各种操作，包括算术、赋值、比较和逻辑等。了解和正确使用这些运算符是编写高效和功能强大的Java程序的基础。</p><h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><p>算术运算符用于执行基本的数学运算，例如加法、减法、乘法和除法。以下是常用的算术运算符：</p><ul><li>加法运算符（+）：用于将两个值相加。</li><li>减法运算符（-）：用于将一个值减去另一个值。</li><li>乘法运算符（*）：用于将两个值相乘。</li><li>除法运算符（&#x2F;）：用于将一个值除以另一个值。</li><li>取余运算符（%）：用于计算两个值相除的余数。</li></ul><h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><p>赋值运算符用于将一个值赋给一个变量。常见的赋值运算符是等号（&#x3D;），它将右边的值赋给左边的变量。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">10</span>; <span class="comment">// 将值10赋给变量x</span></span><br></pre></td></tr></table></figure><p>除了等号之外，还有一些复合赋值运算符，例如加等（+&#x3D;）、减等（-&#x3D;）、乘等（*&#x3D;）和除等（&#x2F;&#x3D;）。这些复合赋值运算符将右边的值与左边的变量进行运算，并将结果赋给左边的变量。</p><h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><p>比较运算符用于比较两个值之间的关系，并返回一个布尔值（true或false）。以下是常用的比较运算符：</p><ul><li>相等运算符（&#x3D;&#x3D;）：用于检查两个值是否相等。</li><li>不等运算符（!&#x3D;）：用于检查两个值是否不相等。</li><li>大于运算符（&gt;）：用于检查左边的值是否大于右边的值。</li><li>小于运算符（&lt;）：用于检查左边的值是否小于右边的值。</li><li>大于等于运算符（&gt;&#x3D;）：用于检查左边的值是否大于或等于右边的值。</li><li>小于等于运算符（&lt;&#x3D;）：用于检查左边的值是否小于或等于右边的值。</li></ul><h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>逻辑运算符用于执行逻辑运算，例如逻辑与（&amp;&amp;）、逻辑或（||）和逻辑非（!）。这些运算符通常用于条件语句和循环结构中。</p><ul><li>逻辑与（&amp;&amp;）：当两个条件都为真时，返回真。</li><li>逻辑或（||）：当至少有一个条件为真时，返回真。</li><li>逻辑非（!）：对条件的结果进行取反。</li></ul><h2 id="其他运算符"><a href="#其他运算符" class="headerlink" title="其他运算符"></a>其他运算符</h2><p>除了上述提到的运算符外，还有一些其他常见的运算符，包括：</p><ul><li>自增运算符（++）：用于将变量的值增加1。</li><li>自减运算符（–）：用于将变量的值减少1。</li><li>条件运算符（三元运算符）（? :）：用于根据条件选择不同的值。</li><li>位运算符：用于对数据的位进行操作，例如按位与（&amp;）、按位或（|）、按位异或（^）等。</li><li>移位运算符：用于对数据的位进行移动操作，例如左移（&lt;&lt;）、右移（&gt;&gt;）等。</li><li>instanceof运算符：用于检查对象是否是指定类型的实例。</li><li>强制类型转换运算符：用于将一个数据类型转换为另一个数据类型。</li></ul><p>了解和掌握这些运算符的使用方法和规则，能够帮助我们进行复杂的计算和逻辑操作，提高程序的灵活性和效率。</p><p>以上是Java中一些常见的运算符的简要介绍，通过灵活运用这些运算符，我们可以编写出功能丰富且高效的Java程序。在实际编程中，根据具体需求和场景选择合适的运算符是非常重要的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>03-Java基础知识-数据类型</title>
       <link href="/2023/05/12/java3/"/>
       <url>/2023/05/12/java3/</url>
