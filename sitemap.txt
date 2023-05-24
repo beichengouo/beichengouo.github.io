@@ -1,6 +1,6 @@
 https://beichengouo.github.io/2023/05/24/wallpaper3/
-https://beichengouo.github.io/Gallery/wallpaper2/index.html
-https://beichengouo.github.io/Gallery/index2.html
+https://beichengouo.github.io/Gallery/index.html
+https://beichengouo.github.io/Gallery/wallpaper2/index2.html
 https://beichengouo.github.io/2023/05/24/wallpaper2/
 https://beichengouo.github.io/2023/05/17/java5/
 https://beichengouo.github.io/2023/05/17/java4/
@@ -13,7 +13,6 @@ https://beichengouo.github.io/2023/05/09/blog3/
 https://beichengouo.github.io/2023/05/08/ziyuan/
 https://beichengouo.github.io/2023/05/10/wallpaper/
 https://beichengouo.github.io/Gallery/wallpaper/index.html
-https://beichengouo.github.io/Gallery/index.html
 https://beichengouo.github.io/categories/index.html
 https://beichengouo.github.io/tags/index.html
 https://beichengouo.github.io/link/index.html
