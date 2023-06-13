@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/"/>
-  <updated>2023-06-01T07:59:56.142Z</updated>
+  <updated>2023-06-13T13:49:09.948Z</updated>
   <id>https://beichengouo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QQ机器人3.0更新工作（6/13）</title>
+    <link href="https://beichengouo.github.io/2023/06/13/qbot2/"/>
+    <id>https://beichengouo.github.io/2023/06/13/qbot2/</id>
+    <published>2023-06-13T13:34:51.055Z</published>
+    <updated>2023-06-13T13:49:09.948Z</updated>
+    
+    <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。</p><p>机器人QQ：2468138690</p><p>可直接验证添加</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-6-x2F-13"><a href="#2023-x2F-6-x2F-13" class="headerlink" title="2023&#x2F;6&#x2F;13"></a>2023&#x2F;6&#x2F;13</h3><p>1.优化了用户体验，非管理员统一使用猫娘人格，且增加了好感度设定，默认好感度为30，经测试正常询问专业问题不会出错。现在更偏向于日常聊天。</p><p>2.优化了指令表，删减了几个人格，优化了指令说明。</p><p>3.目前私聊bot也会有1&#x2F;2的概率在每个回答后面增加随机表情。</p><p>4.优化了在群内的频繁随机回复情况。</p><h2 id="通知："><a href="#通知：" class="headerlink" title="通知："></a>通知：</h2><p>gpt的apikey的免费余额会在7.1到期，到时候在决定注册账号白嫖还是绑卡支付（绑卡需要国外信用卡，国内visa不可用比较麻烦）。</p><p>云主机会在7&#x2F;7到期，由于云主机必须是国外主机，不好找便宜的（这个是新用户注册有优惠，三个月20r），有推荐的可以d我。</p><p>所以七月份大概率机器人会停运一段时间。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本篇博客记录一下个人qbot搭建工作以及后续更新。&lt;/p&gt;
+&lt;p&gt;机器人QQ：2468138690&lt;/p&gt;
+&lt;p&gt;可直接验证添加&lt;/p&gt;
+&lt;h2 id=&quot;最近更新：&quot;&gt;&lt;a href=&quot;#最近更新：&quot; class=&quot;headerlink&quot; title=&quot;最近更新：&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="Ai人工智能" scheme="https://beichengouo.github.io/categories/Ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    
+    <category term="Ai" scheme="https://beichengouo.github.io/tags/Ai/"/>
+    
+  </entry>
   
   <entry>
     <title>07-Java基础知识-异常处理</title>
@@ -478,11 +505,11 @@
   </entry>
   
   <entry>
-    <title>Qbot+gpt搭建</title>
+    <title>QQ机器人2.0更新工作（5/5）</title>
     <link href="https://beichengouo.github.io/2023/05/05/qbot/"/>
     <id>https://beichengouo.github.io/2023/05/05/qbot/</id>
     <published>2023-05-05T14:40:02.615Z</published>
-    <updated>2023-05-09T01:33:34.441Z</updated>
+    <updated>2023-06-13T13:36:02.757Z</updated>
     
     <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），已部署在海外服务器上，秒回复，标注❤️的则为原版没有的内容。</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/img/1/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/img/1/02.png" alt="02"></p><h3 id="指令功能介绍："><a href="#指令功能介绍：" class="headerlink" title="指令功能介绍："></a>指令功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被风控无法在qq群内回复指令大全，私聊正常。</p><p>设置人格：设置gpt初始人格。格式如 设置人格 xxxxxx（描述）</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。❤️</p><p>私人模式：开启后非管理无法与机器人对话。❤️</p><p>变xxx：切换对应预置人格。❤️</p><p>醒醒&#x2F;昏睡：醒醒后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。❤️</p><p>设备信息：显示服务器各参数详细信息。❤️</p><p>磁盘信息：显示服务器磁盘内存信息。❤️</p><p>拉黑检测：检测到指定敏感关键词将自动拉黑对方。❤️</p><p>初始自动检测：第一次对话将自动识别非管理和管理用户。用于加载不同初始设置（比如加载不同人格）。❤️</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-5-x2F-1"><a href="#2023-x2F-5-x2F-1" class="headerlink" title="2023&#x2F;5&#x2F;1"></a>2023&#x2F;5&#x2F;1</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情。❤️</p><p><img src="/img/1/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况。</p><p>3.优化了回复概率问题。</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）。</p>]]></content>
     
@@ -499,32 +526,6 @@
     
     
     <category term="Ai" scheme="https://beichengouo.github.io/tags/Ai/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://beichengouo.github.io/2023/05/05/hello-world/"/>
-    <id>https://beichengouo.github.io/2023/05/05/hello-world/</id>
-    <published>2023-05-05T11:58:48.798Z</published>
-    <updated>2023-05-09T01:35:02.552Z</updated>
-    
-    <content type="html"><![CDATA[<p>本博客使用 <a href="https://hexo.io/">Hexo</a>制作! 这是我的第一篇文章. 查看 <a href="https://hexo.io/docs/">文档</a> 获得更多信息. 如果你在使用Hexo中遇到任何问题，你可以在 <a href="https://hexo.io/docs/troubleshooting.html">故障排除</a> 中找到答案， 或者你可以在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a>上问我.</p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="命令：Create-a-new-post"><a href="#命令：Create-a-new-post" class="headerlink" title="命令：Create a new post"></a>命令：Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="命令：Run-server"><a href="#命令：Run-server" class="headerlink" title="命令：Run server"></a>命令：Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="命令：Generate-static-files"><a href="#命令：Generate-static-files" class="headerlink" title="命令：Generate static files"></a>命令：Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="命令：Deploy-to-remote-sites"><a href="#命令：Deploy-to-remote-sites" class="headerlink" title="命令：Deploy to remote sites"></a>命令：Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;本博客使用 &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;制作! 这是我的第一篇文章. 查看 &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;文档&lt;/a&gt; 获得更多信息. 如果你在使用Hexo中遇到任何问题，你可以在 &lt;a href=</summary>
-      
-    
-    
-    
-    <category term="blog更新日志" scheme="https://beichengouo.github.io/categories/blog%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-    
-    
-    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
-    
-    <category term="日志" scheme="https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   

@@ -1,3 +1,5 @@
+https://beichengouo.github.io/2023/06/13/qbot2/
+https://beichengouo.github.io/2023/05/05/qbot/
 https://beichengouo.github.io/2023/06/01/java7/
 https://beichengouo.github.io/2023/06/01/java6/
 https://beichengouo.github.io/2023/05/25/wallpaper4/
@@ -23,7 +25,6 @@ https://beichengouo.github.io/2023/05/05/hello-world/
 https://beichengouo.github.io/2023/05/08/blog2/
 https://beichengouo.github.io/2023/05/07/blog/
 https://beichengouo.github.io/2023/05/08/aihuihua/
-https://beichengouo.github.io/2023/05/05/qbot/
 https://beichengouo.github.io/about/index.html
 https://beichengouo.github.io/music/index.html
 https://beichengouo.github.io/
