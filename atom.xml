@@ -6,7 +6,7 @@
   <link href="https://beichengouo.github.io/atom.xml" rel="self"/>
   
   <link href="https://beichengouo.github.io/"/>
-  <updated>2023-07-20T06:55:02.697Z</updated>
+  <updated>2023-07-20T07:56:28.749Z</updated>
   <id>https://beichengouo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>刻晴-水族馆</title>
+    <link href="https://beichengouo.github.io/2023/07/20/wallpaper5/"/>
+    <id>https://beichengouo.github.io/2023/07/20/wallpaper5/</id>
+    <published>2023-07-20T07:51:21.829Z</published>
+    <updated>2023-07-20T07:56:28.749Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="刻晴"><a href="#刻晴" class="headerlink" title="刻晴"></a>刻晴</h1><p>模型：Counterfeit-V3.0.safetensors</p><p>vae：Counterfeit-V2.5.vae.pt</p><p>正向提示词：</p><p>[(Transparent background:1.5)::5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysterious,vivid color,shiny, underwater transparent sealed hemispherical glass dome, (white hair),(purple eyes), full body,barefoot,long hair tranquil nature, koi,Underwater, Dome,close up,Dynamic actions,Lens perspective,(((Box composition))),<a href="lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7">lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7</a>, large breasts,nfs,sexy, perfect body,sit cross-legged and lean against the bookshel, volumetric lighting, multi-color eyes, detailed eyes, hyper detailed,light smile, highly detailed, beautiful, small details, ultra detailed, best quality, intricate, 4k, 8k, trending on artstation, good anatomy, beautiful lighting, award-winning,solo, purple hair, dress, long hair, hair bun, twintails, breasts, bare shoulders, purple eyes, strapless, black dress, bangs, purple nails, strapless dress, cone hair bun, nail polish, ribbon, parted lips, double bun, diamond-shaped pupils, symbol-shaped pupils, cleavage, bow, hair ribbon, diamond (shape), detached collar, hair ornament,symatic dress,</p><p>反向提示词：</p><p>(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers),</p><p>迭代步数：25</p><p>采样方法：DPM++ 2M Karras</p><p>CFG Scale：7.5</p><p>样图：</p><p><img src="https://bu.dusays.com/2023/07/20/64b8e87ad0607.png" alt="00012-854785743-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ad26e4.png" alt="00013-854785744-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87acf030.png" alt="00014-854785745-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ad7f01.png" alt="00016-854785747-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ae33d8.png" alt="00011-1786725241-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ae26d9.png" alt="00015-854785746-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ad8edf.png" alt="00017-854785748-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;刻晴&quot;&gt;&lt;a href=&quot;#刻晴&quot; class=&quot;headerlink&quot; title=&quot;刻晴&quot;&gt;&lt;/a&gt;刻晴&lt;/h1&gt;&lt;p&gt;模型：Counterfeit-V3.0.safetensors&lt;/p&gt;
+&lt;p&gt;vae：Counterfeit-V2.5.vae.pt&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="壁纸" scheme="https://beichengouo.github.io/categories/%E5%A3%81%E7%BA%B8/"/>
+    
+    
+    <category term="Ai" scheme="https://beichengouo.github.io/tags/Ai/"/>
+    
+    <category term="壁纸" scheme="https://beichengouo.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>git入门教程</title>
@@ -488,33 +515,6 @@
       
     <summary type="html">&lt;p&gt;本篇博客记录一下本站搭建工作以及后续更新。&lt;/p&gt;
 &lt;h2 id=&quot;更新记录：&quot;&gt;&lt;a href=&quot;#更新记录：&quot; class=&quot;headerlink&quot; title=&quot;更新记录：&quot;&gt;&lt;/a&gt;更新记录：&lt;/h2&gt;&lt;h3 id=&quot;2023-x2F-5-x2F-8：&quot;&gt;&lt;a hr</summary>
-      
-    
-    
-    
-    <category term="blog更新日志" scheme="https://beichengouo.github.io/categories/blog%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-    
-    
-    <category term="blog" scheme="https://beichengouo.github.io/tags/blog/"/>
-    
-    <category term="日志" scheme="https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>blog更新工作进展(2023/5/7)</title>
-    <link href="https://beichengouo.github.io/2023/05/07/blog/"/>
-    <id>https://beichengouo.github.io/2023/05/07/blog/</id>
-    <published>2023-05-07T05:39:36.261Z</published>
-    <updated>2023-05-09T01:34:44.685Z</updated>
-    
-    <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top。</p><p>2.pc端网站背景增加动态彩带特效。</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><p>4.调整了网页整体布局。</p><p>5.更新了相册。</p><p>6.增加了文章封面和tags，调整了文章顺序，增加了置顶文章。</p><h2 id="目前bug（2023-x2F-5-x2F-7）："><a href="#目前bug（2023-x2F-5-x2F-7）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;7）："></a>目前bug（2023&#x2F;5&#x2F;7）：</h2><p>本地端搜索栏显示正常，部署到服务器上会显示在最底下，折腾了一下午暂时无法解决。大概率是github作为服务器加载外部网站上的js和css加载太慢了的问题。应该部署到自己服务器上不会出错。目前暂时把搜索和加载动画功能关闭了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;本篇博客记录一下本站搭建工作以及后续更新。&lt;/p&gt;
-&lt;h2 id=&quot;更新记录：&quot;&gt;&lt;a href=&quot;#更新记录：&quot; class=&quot;headerlink&quot; title=&quot;更新记录：&quot;&gt;&lt;/a&gt;更新记录：&lt;/h2&gt;&lt;h3 id=&quot;2023-x2F-5-x2F-7：&quot;&gt;&lt;a hr</summary>
       
     
     
