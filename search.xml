@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>刻晴-Ai绘画</title>
-      <link href="/2023/07/20/wallpaper5/"/>
-      <url>/2023/07/20/wallpaper5/</url>
-      
-        <content type="html"><![CDATA[<h1 id="刻晴"><a href="#刻晴" class="headerlink" title="刻晴"></a>刻晴</h1><p>模型：Counterfeit-V3.0.safetensors</p><p>vae：Counterfeit-V2.5.vae.pt</p><p>正向提示词：</p><p>[(Transparent background:1.5)::5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysterious,vivid color,shiny, underwater transparent sealed hemispherical glass dome, (white hair),(purple eyes), full body,barefoot,long hair tranquil nature, koi,Underwater, Dome,close up,Dynamic actions,Lens perspective,(((Box composition))),<a href="lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7">lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7</a>, large breasts,nfs,sexy, perfect body,sit cross-legged and lean against the bookshel, volumetric lighting, multi-color eyes, detailed eyes, hyper detailed,light smile, highly detailed, beautiful, small details, ultra detailed, best quality, intricate, 4k, 8k, trending on artstation, good anatomy, beautiful lighting, award-winning,solo, purple hair, dress, long hair, hair bun, twintails, breasts, bare shoulders, purple eyes, strapless, black dress, bangs, purple nails, strapless dress, cone hair bun, nail polish, ribbon, parted lips, double bun, diamond-shaped pupils, symbol-shaped pupils, cleavage, bow, hair ribbon, diamond (shape), detached collar, hair ornament,symatic dress,</p><p>反向提示词：</p><p>(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers),</p><p>迭代步数：25</p><p>采样方法：DPM++ 2M Karras</p><p>CFG Scale：7.5</p><p>样图：</p><p><img src="https://bu.dusays.com/2023/07/20/64b8e87ad0607.png" alt="00012-854785743-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ad26e4.png" alt="00013-854785744-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87acf030.png" alt="00014-854785745-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ad7f01.png" alt="00016-854785747-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ae33d8.png" alt="00011-1786725241-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ae26d9.png" alt="00015-854785746-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"><br><img src="https://bu.dusays.com/2023/07/20/64b8e87ad8edf.png" alt="00017-854785748-[(Transparent background_1.5)__5],(((masterpiece))),(((best quality))),(((extremely detailed))),illustration, 1girl,solo,mysteri.png"></p><p>模型：Counterfeit-V3.0.safetensors</p><p>vae：Counterfeit-V2.5.vae.pt</p><p>正向提示词：</p><p>(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy:1.4), ((purple eyes)),Her eyes shone like dreamy stars,(glowing eyes:1.233),(beautiful and detailed eyes:1.1),(Silver hair:1.14),(messy hair,very long hair,french braid,hair between eyes,sidelocks), (+(bule hair flower:1.14)),(chiffon dress,bule flower pattern in uniform)&#x2F;&#x3D;(military uniform:1.24),(detached sleeves,wide sleeves),(fingerless gloves),choker,(miko thighhighs),High heeled boots,(expressionless,closed mouth),(standing), (classical Princess boudoir with dressing table<books> and french window<a epic view outside the window> in a white ancient palaces),(white flowers,bloom),(abysmal sea),(flowing water),(a dull blue world tree:1.14),(ruins),(night:1.2),dreamy,soul,(fluorescence),(flying translucent blue butterflies:1.15), [[delicate fingers and hands:0.55]::0.85],(detail fingers),(yubao:0.5),<a href="lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7">lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7</a>, large breasts,nfs,sexy, perfect body,sit cross-legged and lean against the bookshel, volumetric lighting, multi-color eyes, detailed eyes, hyper detailed,light smile, highly detailed, beautiful, small details, ultra detailed, best quality, intricate, 4k, 8k, trending on artstation, good anatomy, beautiful lighting, award-winning,solo, purple hair, dress, long hair, hair bun, twintails, breasts, bare shoulders, purple eyes, strapless, black dress, bangs, purple nails, strapless dress, cone hair bun, nail polish, ribbon, parted lips, double bun, diamond-shaped pupils, symbol-shaped pupils, cleavage, bow, hair ribbon, diamond (shape), detached collar, hair ornament,symatic dress,</p><p>反向提示词：</p><p>(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers),</p><p>迭代步数：30</p><p>采样方法：DPM++ 2M Karras</p><p>CFG Scale：7.5</p><p>样图：</p><p><img src="https://bu.dusays.com/2023/07/20/64b90071811dc.png" alt="00033-2013914221-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b9007187ede.png" alt="00032-2013914220-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b90071a2158.png" alt="00025-2013914213-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900717efbf.png" alt="00024-3582519199-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b9007180793.png" alt="00031-2013914219-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b90071811dc.png" alt="00026-2013914214-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"></p><p><img src="https://bu.dusays.com/2023/07/20/64b900b9567a1.png" alt="00036-2013914224-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b97a1f4.png" alt="00028-2013914216-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b999104.png" alt="00037-2013914225-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b95ab45.png" alt="00030-2013914218-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b96316c.png" alt="00027-2013914215-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b9a5dc2.png" alt="00029-2013914217-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b966967.png" alt="00034-2013914222-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"><br><img src="https://bu.dusays.com/2023/07/20/64b900b958b97.png" alt="00035-2013914223-(Overhead view),dynamic angle,ultra-detailed, illustration, close-up, straight on, 1girl, (fantasy_1.4), ((purple eyes)),Her eye.png"></p><p>模型：Counterfeit-V3.0.safetensors</p><p>vae：Counterfeit-V2.5.vae.pt</p><p>正向提示词：</p><p>(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluorescence flowers in vase, luminous flowers blooming), (glowing light blue eyes), detailed dreamy stars pupils, (delicate blue hair, messy hair, very long hair, French braid, hair between eyes), black headband, light smile, open mouth, [[delicate fingers and hands:0.55]::0.85], (detailed fingers), detailed beautiful skin, off-shoulder shining fluffy (pink dress:1.3), frills, floral print, thigh highs, dynamic angle, dynamic actions, touch lips, volumetric lighting, beautiful lighting, (dim lighting), (classical private room, dressing table, old books, French window in morning, park view outside the window), pictures on wall, clock, fruits basket, (masterpiece, best quality, high resolution, absurdres, intricate details:1.3), illustration, lens perspective, fantasy, feminine, hyper detailed, highly detailed, ultra detailed, small details, trending on artstation, award-winning, good anatomy, <a href="lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7">lora:keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023:0.7</a>, large breasts,nfs,sexy, perfect body,sit cross-legged and lean against the bookshel, volumetric lighting, multi-color eyes, detailed eyes, hyper detailed,light smile, highly detailed, beautiful, small details, ultra detailed, best quality, intricate, 4k, 8k, trending on artstation, good anatomy, beautiful lighting, award-winning,solo, purple hair, dress, long hair, hair bun, twintails, breasts, bare shoulders, purple eyes, strapless, black dress, bangs, purple nails, strapless dress, cone hair bun, nail polish, ribbon, parted lips, double bun, diamond-shaped pupils, symbol-shaped pupils, cleavage, bow, hair ribbon, diamond (shape), detached collar, hair ornament,symatic dress,</p><p>反向提示词：</p><p>(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers),</p><p>迭代步数：30</p><p>采样方法：DPM++ 2M Karras</p><p>CFG Scale：7.5</p><p>样图：</p><p><img src="https://bu.dusays.com/2023/07/20/64b911937a9af.png" alt="00044-3634599432-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b911936c3dd.png" alt="00041-3634599428-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b9119382322.png" alt="00046-3634599434-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b911937b184.png" alt="00043-3634599431-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b911936b4e3.png" alt="00040-3634599427-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b911936ad62.png" alt="00042-3634599430-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b911938e4ca.png" alt="00045-3634599433-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"><br><img src="https://bu.dusays.com/2023/07/20/64b9119388e2f.png" alt="00039-3634599426-(gorgeous antique furniture background), kawaii cute 1girl dancing, solo, close up, mysterious, vivid color, (glitters, fluoresc.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 壁纸 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Ai </tag>
-            
-            <tag> 壁纸 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>git入门教程</title>
       <link href="/2023/07/20/git/"/>
       <url>/2023/07/20/git/</url>
@@ -123,91 +96,6 @@
         <tags>
             
             <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Ai绘画-真人向</title>
-      <link href="/2023/05/25/wallpaper4/"/>
-      <url>/2023/05/25/wallpaper4/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Ai绘画分享（真人向）"><a href="#Ai绘画分享（真人向）" class="headerlink" title="Ai绘画分享（真人向）"></a>Ai绘画分享（真人向）</h1><p>来一点小小的Ai震撼</p><p>模型：majicmixRealistic_v4<br><img src="https://bu.dusays.com/2023/05/25/646f6682ec3dd.png" alt="00121-1838010354-1girl wear ruffled apron, best quality, ultra-detailed, masterpiece, finely detail, highres, 8k wallpaper, white skin,,collar,ne.png"></p><p><img src="https://bu.dusays.com/2023/05/25/646f6682edb55.png" alt="00122-1838010355-1girl wear ruffled apron, best quality, ultra-detailed, masterpiece, finely detail, highres, 8k wallpaper, white skin,,collar,ne.png"><br><img src="https://bu.dusays.com/2023/05/25/646f66842563b.png" alt="00111-1134606033-best quality, face focus, soft light, (depth of field) ,ultra high res, (photorealistic_1.4), RAW photo, (upper thigh_1.4) ,(fro.png"><br><img src="https://bu.dusays.com/2023/05/25/646f66844b742.png" alt="00110-2437370096-best quality, face focus, soft light, (depth of field) ,ultra high res, (photorealistic_1.4), RAW photo, (upper thigh_1.4) ,(fro.png"><br><img src="https://bu.dusays.com/2023/05/25/646f6684801b8.png" alt="00107-2615850672-best quality, face focus, soft light, (depth of field) ,ultra high res, (photorealistic_1.4), RAW photo, (portrait_1.4) ,(from f.png"><br><img src="https://bu.dusays.com/2023/05/25/646f66849a1a2.png" alt="00106-1076845754-best quality, face focus, soft light, (depth of field) ,ultra high res, (photorealistic_1.4), RAW photo, (portrait_1.4) ,(from f.png"><br><img src="https://bu.dusays.com/2023/05/25/646f6684ec4c1.png" alt="00104-2432026629-best quality, face focus, soft light, (depth of field) ,ultra high res, (photorealistic_1.4), RAW photo, (portrait_1.4) ,(from f.png"><br><img src="https://bu.dusays.com/2023/05/25/646f6684be49e.png" alt="00105-3251689877-best quality, face focus, soft light, (depth of field) ,ultra high res, (photorealistic_1.4), RAW photo, (portrait_1.4) ,(from f.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 壁纸 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Ai </tag>
-            
-            <tag> 壁纸 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Ai绘画-刻晴</title>
-      <link href="/2023/05/24/wallpaper3/"/>
-      <url>/2023/05/24/wallpaper3/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Ai绘画分享（原神-刻晴）"><a href="#Ai绘画分享（原神-刻晴）" class="headerlink" title="Ai绘画分享（原神-刻晴）"></a>Ai绘画分享（原神-刻晴）</h1><p>模型：Counterfeit-V3.0</p><p>Vae：Counterfeit-V2.5</p><p>lora：keqing_lion_optimizer_dim64_loraModel_5e-3noise_token1_4-3-2023</p><p><img src="https://bu.dusays.com/2023/05/24/646e009ceed53.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d2d957.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d533bf.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d7f263.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d5df09.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d8315a.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d8aaec.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d89f48.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d7e32d.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e009d7f64c.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e010387e5f.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646e06d624055.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 壁纸 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Ai </tag>
-            
-            <tag> 壁纸 </tag>
-            
-            <tag> 原神 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Ai绘画-甘雨</title>
-      <link href="/2023/05/24/wallpaper2/"/>
-      <url>/2023/05/24/wallpaper2/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Ai绘画分享（原神-甘雨）"><a href="#Ai绘画分享（原神-甘雨）" class="headerlink" title="Ai绘画分享（原神-甘雨）"></a>Ai绘画分享（原神-甘雨）</h1><p>模型：Counterfeit-V3.0</p><p>Vae：Counterfeit-V2.5</p><p>lora：ganyu2</p><p><img src="https://bu.dusays.com/2023/05/24/646def7349e24.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646def73487c9.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646def734e4a1.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646def7347682.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646def734879f.png"></p><p><img src="https://bu.dusays.com/2023/05/24/646def7351e3a.png"></p><p><img src="https://bu.dusays.com/2023/05/25/646f0dad06532.png" alt="00053-2926857989-((masterpiece, best quality)), close-up, straight on, face focus,((1 girl)), {long hair}, ((small breasts)), standing, hair orna.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad7fc0d.png" alt="00088-776441060-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad73a7a.png" alt="00091-776441063-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad848a5.png" alt="00092-776441064-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad9f312.png" alt="00077-1374725258-((masterpiece, best quality)), close-up, straight on, face focus,((1 girl)), {long hair}, ((small breasts)), standing, hair orna.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad7ca1e.png" alt="00090-776441062-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad7fd07.png" alt="00097-776441069-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad747d5.png" alt="00100-776441072-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad7e2e7.png" alt="00085-776441057-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dad88e99.png" alt="00089-776441061-(1girl),(solo), ((high resolution)),((Clear and sharp)),(masterpiece_1.5), outdoors ,only 1girl,look at the camera,sky,finely de.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0daee5b07.png" alt="00071-2934416068-((masterpiece, best quality)), close-up, straight on, face focus,((1 girl)), {long hair}, ((small breasts)), standing, hair orna.png"><br><img src="https://bu.dusays.com/2023/05/25/646f0dae969b2.png" alt="00069-2298563128-((masterpiece, best quality)), close-up, straight on, face focus,((1 girl)), {long hair}, ((medium breasts )), standing, hair or.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 壁纸 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Ai </tag>
-            
-            <tag> 壁纸 </tag>
-            
-            <tag> 原神 </tag>
             
         </tags>
       
@@ -395,33 +283,6 @@
     
     
     <entry>
-      <title>碧蓝档案壁纸</title>
-      <link href="/2023/05/10/wallpaper/"/>
-      <url>/2023/05/10/wallpaper/</url>
-      
-        <content type="html"><![CDATA[<h1 id="碧蓝档案壁纸分享"><a href="#碧蓝档案壁纸分享" class="headerlink" title="碧蓝档案壁纸分享"></a>碧蓝档案壁纸分享</h1><p><img src="https://bu.dusays.com/2023/05/10/645b298f3371d.png"></p><p><img src="https://bu.dusays.com/2023/05/10/645b298f3371d.jpg"></p><p><img src="https://bu.dusays.com/2023/05/10/645b298f6ac22.png"></p><p><img src="https://bu.dusays.com/2023/05/10/645b29909ad64.jpg"></p><p><img src="https://bu.dusays.com/2023/05/10/645b2990ae369.jpg"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 壁纸 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 壁纸 </tag>
-            
-            <tag> 碧蓝档案 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>blog更新工作进展(2023/5/9)</title>
       <link href="/2023/05/09/blog3/"/>
       <url>/2023/05/09/blog3/</url>
@@ -441,31 +302,6 @@
             <tag> blog </tag>
             
             <tag> 日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>实用资源分享(百度云)</title>
-      <link href="/2023/05/08/ziyuan/"/>
-      <url>/2023/05/08/ziyuan/</url>
-      
-        <content type="html"><![CDATA[<h2 id="资源分享："><a href="#资源分享：" class="headerlink" title="资源分享："></a>资源分享：</h2><h3 id="学习向："><a href="#学习向：" class="headerlink" title="学习向："></a>学习向：</h3><h4 id="stable-diffusion-Ai绘画整合包-本体＋启动器（搬运自b站秋叶大佬）："><a href="#stable-diffusion-Ai绘画整合包-本体＋启动器（搬运自b站秋叶大佬）：" class="headerlink" title="stable diffusion Ai绘画整合包 本体＋启动器（搬运自b站秋叶大佬）："></a>stable diffusion Ai绘画整合包 本体＋启动器（搬运自b站秋叶大佬）：</h4><p>链接：<a href="https://pan.baidu.com/s/1uFTOOSM4bgbM4pKuWypiMA?pwd=iwye">https://pan.baidu.com/s/1uFTOOSM4bgbM4pKuWypiMA?pwd=iwye</a><br>提取码：iwye </p><p>链接：<a href="https://pan.baidu.com/s/155E1lciEzsAy1qxeP202Ww?pwd=72ir">https://pan.baidu.com/s/155E1lciEzsAy1qxeP202Ww?pwd=72ir</a><br>提取码：72ir </p><h4 id="windows虚拟机（vmware-含破解工具）："><a href="#windows虚拟机（vmware-含破解工具）：" class="headerlink" title="windows虚拟机（vmware 含破解工具）："></a>windows虚拟机（vmware 含破解工具）：</h4><p>链接：<a href="https://pan.baidu.com/s/1qinNHNP6vMQmvMCgcML2mA?pwd=hzki">https://pan.baidu.com/s/1qinNHNP6vMQmvMCgcML2mA?pwd=hzki</a><br>提取码：hzki </p><h4 id="adobe全套工具（含ps，pr等等全家桶）："><a href="#adobe全套工具（含ps，pr等等全家桶）：" class="headerlink" title="adobe全套工具（含ps，pr等等全家桶）："></a>adobe全套工具（含ps，pr等等全家桶）：</h4><p>链接：<a href="https://pan.baidu.com/s/1dEFKg6QtHqb4MDCvVvA8VQ?pwd=olah">https://pan.baidu.com/s/1dEFKg6QtHqb4MDCvVvA8VQ?pwd=olah</a><br>提取码：olah </p><h3 id="娱乐向："><a href="#娱乐向：" class="headerlink" title="娱乐向："></a>娱乐向：</h3><h4 id="口袋妖怪究极绿宝石5-4："><a href="#口袋妖怪究极绿宝石5-4：" class="headerlink" title="口袋妖怪究极绿宝石5.4："></a>口袋妖怪究极绿宝石5.4：</h4><p>链接：<a href="https://pan.baidu.com/s/12nM4lRPTVcWt5KoOuiYZfQ?pwd=zuiz">https://pan.baidu.com/s/12nM4lRPTVcWt5KoOuiYZfQ?pwd=zuiz</a><br>提取码：zuiz </p><h4 id="心灵终结3-36："><a href="#心灵终结3-36：" class="headerlink" title="心灵终结3.36："></a>心灵终结3.36：</h4><p>链接：<a href="https://pan.baidu.com/s/1zL1hzm_qUDX8Xsmv0Q_LFg?pwd=87ma">https://pan.baidu.com/s/1zL1hzm_qUDX8Xsmv0Q_LFg?pwd=87ma</a><br>提取码：87ma </p><p>大部分3a游戏我都有资源，如死亡搁浅、地铁离去等等，这里因为不方便分享，如有需要可以联系我。（其实就是以前买过专门做破解版游戏网站的永久会员，游戏挺全的）</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>资源均为百度云网盘，如果资源失效可以联系我补。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 杂项 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂项 </tag>
             
         </tags>
       
