@@ -2,27 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://beichengouo.github.io/2024/02/27/java10/</loc>
+    <loc>https://beichengouo.github.io/2024/02/27/java8gw/</loc>
     
     <lastmod>2024-03-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2024/02/26/java9/</loc>
-    
-    <lastmod>2024-02-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2024/02/26/java8/</loc>
-    
-    <lastmod>2024-02-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

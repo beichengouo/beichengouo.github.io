@@ -1,6 +1,4 @@
-https://beichengouo.github.io/2024/02/27/java10/
-https://beichengouo.github.io/2024/02/26/java9/
-https://beichengouo.github.io/2024/02/26/java8/
+https://beichengouo.github.io/2024/02/27/java8gw/
 https://beichengouo.github.io/2023/07/20/git/
 https://beichengouo.github.io/2023/06/13/qbot2/
 https://beichengouo.github.io/2023/05/05/qbot/
