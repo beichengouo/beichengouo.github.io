@@ -33,7 +33,7 @@ if (document.body.clientWidth > 992) {
                 zoom: 0.9,
                 borderRadius: 5 + 'px',
                 right: 60 + 'px',
-                // 这里可以换为你喜欢的图片，例如我就换为了雪人，但是要抠图
+                // 这里可以换为你喜欢的图片
                 nekoImg: "https://bu.dusays.com/2023/05/08/6458c54925aa2.png",
                 hoverMsg: "(๑•̀ㅂ•́)و✧",
                 color: "#6f42c1",
