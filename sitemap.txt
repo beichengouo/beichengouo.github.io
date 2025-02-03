@@ -9,9 +9,9 @@ https://beichengouo.github.io/link/index.html
 https://beichengouo.github.io/about/index.html
 https://beichengouo.github.io/music/index.html
 https://beichengouo.github.io/
-https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/
-https://beichengouo.github.io/tags/%E7%BB%BC%E5%90%88/
 https://beichengouo.github.io/tags/%E7%90%86%E8%B4%A2/
+https://beichengouo.github.io/tags/%E7%BB%BC%E5%90%88/
+https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/
+https://beichengouo.github.io/categories/%E7%90%86%E8%B4%A2/
 https://beichengouo.github.io/categories/%E7%BB%BC%E5%90%88/
 https://beichengouo.github.io/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/
-https://beichengouo.github.io/categories/%E7%90%86%E8%B4%A2/
