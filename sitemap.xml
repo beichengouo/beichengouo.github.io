@@ -2,63 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://beichengouo.github.io/2024/02/27/java8gw/</loc>
+    <loc>https://beichengouo.github.io/2025/02/03/2/</loc>
     
-    <lastmod>2024-04-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/07/20/git/</loc>
-    
-    <lastmod>2023-07-21</lastmod>
+    <lastmod>2025-02-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/06/13/qbot2/</loc>
+    <loc>https://beichengouo.github.io/2025/02/03/test/</loc>
     
-    <lastmod>2023-06-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/05/qbot/</loc>
-    
-    <lastmod>2023-06-13</lastmod>
+    <lastmod>2025-02-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/06/01/java7/</loc>
+    <loc>https://beichengouo.github.io/2025/02/03/1/</loc>
     
-    <lastmod>2023-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/06/01/java6/</loc>
-    
-    <lastmod>2023-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/Gallery/wallpaper2/index2.html</loc>
-    
-    <lastmod>2023-05-25</lastmod>
+    <lastmod>2025-02-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,70 +31,7 @@
   <url>
     <loc>https://beichengouo.github.io/Gallery/index.html</loc>
     
-    <lastmod>2023-05-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/17/java5/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/17/java4/</loc>
-    
-    <lastmod>2023-05-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/12/java3/</loc>
-    
-    <lastmod>2023-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/12/java1/</loc>
-    
-    <lastmod>2023-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/12/java2/</loc>
-    
-    <lastmod>2023-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/10/blog4/</loc>
-    
-    <lastmod>2023-05-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/09/blog3/</loc>
-    
-    <lastmod>2023-05-10</lastmod>
+    <lastmod>2025-02-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,7 +40,7 @@
   <url>
     <loc>https://beichengouo.github.io/Gallery/wallpaper/index.html</loc>
     
-    <lastmod>2023-05-10</lastmod>
+    <lastmod>2025-02-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -173,42 +74,6 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/2023/05/05/hello-world/</loc>
-    
-    <lastmod>2023-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/08/blog2/</loc>
-    
-    <lastmod>2023-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/07/blog/</loc>
-    
-    <lastmod>2023-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/2023/05/08/aihuihua/</loc>
-    
-    <lastmod>2023-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://beichengouo.github.io/about/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
@@ -236,20 +101,6 @@
 
   
   <url>
-    <loc>https://beichengouo.github.io/tags/Ai/</loc>
-    <lastmod>2025-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://beichengouo.github.io/tags/blog/</loc>
-    <lastmod>2025-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://beichengouo.github.io/tags/%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -257,7 +108,14 @@
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://beichengouo.github.io/tags/%E7%BB%BC%E5%90%88/</loc>
+    <lastmod>2025-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://beichengouo.github.io/tags/%E7%90%86%E8%B4%A2/</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -266,21 +124,21 @@
 
   
   <url>
-    <loc>https://beichengouo.github.io/categories/Ai%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <loc>https://beichengouo.github.io/categories/%E7%BB%BC%E5%90%88/</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/categories/blog%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://beichengouo.github.io/categories/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://beichengouo.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://beichengouo.github.io/categories/%E7%90%86%E8%B4%A2/</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

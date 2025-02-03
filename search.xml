@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>00-Java八股文</title>
-      <link href="/2024/02/27/java8gw/"/>
-      <url>/2024/02/27/java8gw/</url>
+      <title>工行宣传片</title>
+      <link href="/2025/02/03/2/"/>
+      <url>/2025/02/03/2/</url>
       
-        <content type="html"><![CDATA[<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><h2 id="1-Java-中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？"><a href="#1-Java-中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？" class="headerlink" title="1. Java 中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？"></a>1. Java 中的几种基本数据类型是什么？对应的包装类型是什么？各自占用多少字节呢？</h2><table><thead><tr><th>byte</th><th>short</th><th>int</th><th>long</th><th>float</th><th>double</th><th>boolean</th><th>char</th></tr></thead><tbody><tr><td>Byte</td><td>Short</td><td>Integer</td><td>Long</td><td>Float</td><td>Double</td><td>Boolean</td><td>Character</td></tr><tr><td>1</td><td>2</td><td>4</td><td>8</td><td>4</td><td>8</td><td>1</td><td>2</td></tr></tbody></table><h2 id="2-String、-StringBuffer-和-StringBuilder-的区别是什么-String-为什么是不可变的"><a href="#2-String、-StringBuffer-和-StringBuilder-的区别是什么-String-为什么是不可变的" class="headerlink" title="2. String、 StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?"></a>2. String、 StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?</h2><table><thead><tr><th></th><th></th><th>应用场景</th></tr></thead><tbody><tr><td>String</td><td>线程安全</td><td>操作少量字符串</td></tr><tr><td>StringBuffer</td><td>线程安全</td><td>多线程操作大量字符串</td></tr><tr><td>StringBuilder</td><td>线程不安全（没有加锁）</td><td>单线程操作大量字符串</td></tr></tbody></table><p><code>String</code> 类中使用 <code>final</code> 关键字修饰字符数组来保存字符串，保存字符串的数组由 <code>final</code> 修饰且私有，<code>String</code> 没有提供修改这个字符串的方法。<code>String</code> 被 <code>final</code> 修饰所以不可以被继承，避免子类<code>String</code> 不可变。</p><h2 id="3-String-s1-x3D-new-String-“abc”-这段代码创建了几个字符串对象？"><a href="#3-String-s1-x3D-new-String-“abc”-这段代码创建了几个字符串对象？" class="headerlink" title="3. String s1 &#x3D; new String(“abc”);这段代码创建了几个字符串对象？"></a>3. String s1 &#x3D; new String(“abc”);这段代码创建了几个字符串对象？</h2><p>一个或者两个。</p><p>如果字符串常量池中已经有abc的引用就只创建一个字符串对象。</p><p>如果没有则创建两个字符串对象，其中一个字符串的引用存放在字符串常量池。</p><h2 id="4-x3D-x3D-与-equals-hashCode-与-equals"><a href="#4-x3D-x3D-与-equals-hashCode-与-equals" class="headerlink" title="4. &#x3D;&#x3D; 与 equals?hashCode 与 equals ?"></a>4. &#x3D;&#x3D; 与 equals?hashCode 与 equals ?</h2><p>&#x3D;&#x3D;对于基本数据类型比较的是值，引用数据类型比较的是内存地址。</p><p>equals如果不重写与&#x3D;&#x3D;是一样的，重写根据重写的逻辑来比较。</p><p>一般重写equals方法来比较两个对象的属性是否相等。</p><p>重写equals方法也要重写hashCode方法，因为两个相等的对象它们的hashCode值也必须是相等的，防止equals为true时，两个对象hashCode却不同的情况。</p><h2 id="5-谈谈对-Java-注解的理解，解决了什么问题？"><a href="#5-谈谈对-Java-注解的理解，解决了什么问题？" class="headerlink" title="5. 谈谈对 Java 注解的理解，解决了什么问题？"></a>5. 谈谈对 Java 注解的理解，解决了什么问题？</h2><p><code>Annotation</code> （注解） 是 Java5 开始引入的新特性，是一种元数据，可以看作是一种特殊的注释，主要用于修饰类、方法或者变量，提供某些信息供程序在编译或者运行时使用。</p><p>注解本质是一个继承了<code>Annotation</code> 的特殊接口：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Target(ElementType.METHOD)</span></span><br><span class="line"><span class="meta">@Retention(RetentionPolicy.SOURCE)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> Override &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Override</span> <span class="keyword">extends</span> <span class="title class_">Annotation</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>JDK 提供了很多内置的注解（比如 <code>@Override</code>、<code>@Deprecated</code>），同时，我们还可以自定义注解。</p><p>注解只有被解析之后才会生效，常见的解析方法有两种：</p><ul><li><strong>编译期直接扫描</strong>：编译器在编译 Java 代码的时候扫描对应的注解并处理，比如某个方法使用<code>@Override</code> 注解，编译器在编译的时候就会检测当前的方法是否重写了父类对应的方法。</li><li><strong>运行期通过反射处理</strong>：像框架中自带的注解(比如 Spring 框架的 <code>@Value</code>、<code>@Component</code>)都是通过反射来进行处理的。</li></ul><p>注解，可以改善代码的可读性、可维护性和扩展性。使代码紧耦合。</p><h2 id="6-Exception-和-Error-有什么区别？"><a href="#6-Exception-和-Error-有什么区别？" class="headerlink" title="6. Exception 和 Error 有什么区别？"></a>6. Exception 和 Error 有什么区别？</h2><p>在 Java 中，所有的异常都有一个共同的祖先 <code>java.lang</code> 包中的 <code>Throwable</code> 类。<code>Throwable</code> 类有两个重要的子类:</p><ul><li><strong><code>Exception</code></strong> :程序本身可以处理的异常，可以通过 <code>catch</code> 来进行捕获。<code>Exception</code> 又可以分为 Checked Exception (受检查异常，必须处理) 和 Unchecked Exception (不受检查异常，可以不处理)。</li><li>**<code>Error</code>**：<code>Error</code> 属于程序无法处理的错误 ，不建议通过<code>catch</code>捕获 。例如 Java 虚拟机运行错误（<code>Virtual MachineError</code>）、虚拟机内存不够错误(<code>OutOfMemoryError</code>)、类定义错误（<code>NoClassDefFoundError</code>）等 。这些异常发生时，Java 虚拟机（JVM）一般会选择线程终止。</li></ul><h2 id="7-Java-反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？"><a href="#7-Java-反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？" class="headerlink" title="7. Java 反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？"></a>7. Java 反射？反射有什么缺点？你是怎么理解反射的（为什么框架需要反射）？</h2><p>通过反射可以获取任意一个类的所有属性和方法，还可以调用这些方法和属性。</p><p>优点：反射可以让我们的代码更加灵活、为各种框架提供开箱即用的功能提供了便利。</p><p>缺点：反射也存在安全问题，比如可以无视泛型参数的安全检查（泛型参数的安全检查发生在编译时）。另外，反射的性能也要稍差点，不过，对于框架来说实际是影响不大的。</p><h2 id="8-说说-List-Set-Map-三者的区别？三者底层的数据结构？"><a href="#8-说说-List-Set-Map-三者的区别？三者底层的数据结构？" class="headerlink" title="8. 说说 List,Set,Map 三者的区别？三者底层的数据结构？"></a>8. 说说 List,Set,Map 三者的区别？三者底层的数据结构？</h2><p>List 数据可重复 有序</p><ul><li><p><code>ArrayList</code>：<code>Object[]</code> 数组。</p></li><li><p><code>Vector</code>：<code>Object[]</code> 数组。</p></li><li><p><code>LinkedList</code>：双向链表(JDK1.6 之前为循环链表，JDK1.7 取消了循环)。</p></li></ul><hr><p>Set  数据不可重复 </p><ul><li><p><code>HashSet</code>(无序，唯一): 基于 <code>HashMap</code> 实现的，底层采用 <code>HashMap</code> 来保存元素。</p></li><li><p><code>LinkedHashSet</code>: <code>LinkedHashSet</code> 是 <code>HashSet</code> 的子类，并且其内部是通过 <code>LinkedHashMap</code> 来实现的。</p></li><li><p><code>TreeSet</code>(有序，唯一): 红黑树(自平衡的排序二叉树)。</p></li></ul><hr><p>Map 键值对   </p><ul><li><p><code>HashMap</code>：JDK1.8 之前 <code>HashMap</code> 由数组+链表组成的，数组是 <code>HashMap</code> 的主体，链表则是主要为了解决哈希冲突而存在的（“拉链法”解决冲突）。JDK1.8 以后在解决哈希冲突时有了较大的变化，当链表长度大于阈值（默认为 8）（将链表转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树）时，将链表转化为红黑树，以减少搜索时间。</p></li><li><p><code> LinkedHashMap</code>：<code>LinkedHashMap</code> 继承自 <code>HashMap</code>，所以它的底层仍然是基于拉链式散列结构即由数组和链表或红黑树组成。另外，<code>LinkedHashMap</code> 在上面结构的基础上，增加了一条双向链表，使得上面的结构可以保持键值对的插入顺序。同时通过对链表进行相应的操作，实现了访问顺序相关逻辑。)</p></li><li><p><code>Hashtable</code>：数组+链表组成的，数组是 <code>Hashtable</code> 的主体，链表则是主要为了解决哈希冲突而存在的。</p></li><li><p><code>TreeMap</code>：红黑树（自平衡的排序二叉树）。</p><p>-摘自<a href="https://javaguide.cn/java/collection/java-collection-questions-01.html#%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%80%BB%E7%BB%93">Java集合常见面试题总结(上) | JavaGuide</a></p></li></ul><p>\9. 有哪些集合是线程不安全的？怎么解决呢？</p><p>\10. 比较 HashSet、LinkedHashSet 和 TreeSet 三者的异同</p><p><code>HashSet</code>、<code>LinkedHashSet</code> 和 <code>TreeSet</code> 都是 <code>Set</code> 接口的实现类，都能保证元素唯一，并且都不是线程安全的。</p><p><code>HashSet</code>、<code>LinkedHashSet</code> 和 <code>TreeSet</code> 的主要区别在于底层数据结构不同。<code>HashSet</code> 的底层数据结构是哈希表（基于 <code>HashMap</code> 实现）。<code>LinkedHashSet</code> 的底层数据结构是链表和哈希表，元素的插入和取出顺序满足 FIFO。<code>TreeSet</code> 底层数据结构是红黑树，元素是有序的，排序的方式有自然排序和定制排序。</p><p>底层数据结构不同又导致这三者的应用场景不同。<code>HashSet</code> 用于不需要保证元素插入和取出顺序的场景，<code>LinkedHashSet</code> 用于保证元素的插入和取出顺序满足 FIFO 的场景，<code>TreeSet</code> 用于支持对元素自定义排序的场景。</p><p>\11. </p><p>(1)HashMap 和 Hashtable 的区别？</p><p>HashMap是线程不安全的 Hashtable是线程安全的。所以HashMap的效率比 Hashtable高一点。Hashtable基本已经弃用。</p><p>不指定初始容量的情况下，HashMap的默认大小为16，每次扩容变为原来的两倍，Hashtable默认大小是11，每次扩容为2n+1。指定初始容量的情况下HashMap会将其扩充到2的幂次方大小，Hashtable直接使用指定的初始容量。</p><p>(2)HashMap 和 HashSet 区别？</p><p><code>HashSet</code> 底层就是基于 <code>HashMap</code> 实现的。</p><table><thead><tr><th align="center"><code>HashMap</code></th><th align="center"><code>HashSet</code></th></tr></thead><tbody><tr><td align="center">实现了 <code>Map</code> 接口</td><td align="center">实现 <code>Set</code> 接口</td></tr><tr><td align="center">存储键值对</td><td align="center">仅存储对象</td></tr><tr><td align="center">调用 <code>put()</code>向 map 中添加元素</td><td align="center">调用 <code>add()</code>方法向 <code>Set</code> 中添加元素</td></tr><tr><td align="center"><code>HashMap</code> 使用键（Key）计算 <code>hashcode</code></td><td align="center"><code>HashSet</code> 使用成员对象来计算 <code>hashcode</code> 值，对于两个对象来说 <code>hashcode</code> 可能相同，所以<code>equals()</code>方法用来判断对象的相等性</td></tr></tbody></table><p>(3)HashMap 和 TreeMap 区别？</p><p><code>TreeMap</code> 和<code>HashMap</code> 都继承自<code>AbstractMap</code> ，但<code>TreeMap</code>它还实现了<code>NavigableMap</code>接口和<code>SortedMap</code> 接口。实现 <code>NavigableMap</code> 接口让 <code>TreeMap</code> 有了对集合内元素的搜索的能力。实现<code>SortedMap</code>接口让 <code>TreeMap</code> 有了对集合中的元素根据键排序的能力。默认是按 key 的升序排序。 <strong><code>TreeMap</code> 主要多了对集合中的元素根据键排序的能力以及对集合内元素的搜索的能力。</strong></p><p>\12. HashMap 的底层实现</p><p>\13. jvm 内存结构</p><p>\14. 什么是类加载？何时类加载？类加载流程？</p><p>\15. 知道哪些类加载器。类加载器之间的关系？</p><p>\16. Java 内存模型</p><p>\17. GC 的全流程</p><p>\18. 线程和进程的区别。</p><p>\19. 什么是线程死锁?如何避免死锁?</p><p>\20. 乐观锁和悲观锁了解么？</p><p>\21. 说说 sleep() 方法和 wait() 方法区别和共同点?</p><p>\22. error和exception有什么区别?</p><h2 id="23-说出5个常见的RuntimeException"><a href="#23-说出5个常见的RuntimeException" class="headerlink" title="\23. 说出5个常见的RuntimeException?"></a>\23. 说出5个常见的RuntimeException?</h2><ol><li><strong>NullPointerException（空指针异常）</strong>：当尝试在一个空对象上调用方法或访问其属性时抛出。</li><li><strong>ArrayIndexOutOfBoundsException（数组索引越界异常）</strong>：当尝试访问数组中不存在的索引时抛出。</li><li><strong>ClassCastException（类转换异常）</strong>：当尝试将对象强制转换为不兼容的类型时抛出。</li><li><strong>NumberFormatException（数字格式异常）</strong>：当尝试将字符串转换为数字，但字符串的格式不正确时抛出。</li><li><strong>IllegalArgumentException（非法参数异常）</strong>：当传递给方法的参数不符合预期时抛出。</li></ol><h2 id="24-throw和throws的区别"><a href="#24-throw和throws的区别" class="headerlink" title="\24. throw和throws的区别?"></a>\24. throw和throws的区别?</h2><p><strong>throw</strong>：</p><ul><li><code>throw</code> 用于在代码块内部手动抛出异常对象。</li><li>通常用于在程序执行过程中发现错误条件时，主动抛出异常。</li></ul><p><strong>throws</strong>：</p><ul><li><code>throws</code> 用于方法声明中，表示该方法可能会抛出指定类型的异常，需要调用者处理。</li><li>在方法声明中使用 <code>throws</code>，可以将异常的处理责任转移到调用者。</li></ul><p>示例：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">javaCopy codepublic <span class="keyword">void</span> <span class="title function_">someMethod</span><span class="params">()</span> <span class="keyword">throws</span> IOException &#123;</span><br><span class="line">    <span class="keyword">if</span> (someCondition) &#123;</span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IOException</span>(<span class="string">&quot;Some error message&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>\25. Java中异常处理要怎么处理？</p><p>\26. 什么是 Spring 框架?</p><p>\27. 列举一些重要的 Spring 模块？</p><p>\28. 谈谈自己对于 Spring IoC 和 AOP 的理解</p><p>\29. spring拦截器和过滤器了解么？</p><p>\30. Mybatis优点?</p><p>\31. Mybatis缺点?</p><h2 id="32-Mybati中的-和-的区别是什么"><a href="#32-Mybati中的-和-的区别是什么" class="headerlink" title="\32. Mybati中的#{}和${}的区别是什么?"></a>\32. Mybati中的#{}和${}的区别是什么?</h2><p>#{}可以有效防止sql注入，会带上一个单引号。一般尽量使用#{}</p><p>${}不能防止sql注入，一般用于表名是从参数中获取：</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> $&#123;students&#125;</span><br></pre></td></tr></table></figure><p>或者orderby排序中的字段</p><p>\33. Mybatis中9个动态标签是?</p><p>\34. 什么是 SpringMVC？</p><p>\35. Spring MVC 的优点有哪些？</p><p>\36. 什么是SpringBoot?</p><p>\37. SpringBoot的特征?</p><p>\38. SpringBoot启动类注解?它是由哪些注解组成?</p><p> <code>@SpringBootApplication</code></p><p>看作是 <code>@Configuration</code>、<code>@EnableAutoConfiguration</code>、<code>@ComponentScan</code> 注解的集合。</p><ul><li><code>@EnableAutoConfiguration</code>：启用 SpringBoot 的自动配置机制</li><li><code>@ComponentScan</code>：扫描被<code>@Component</code> (<code>@Repository</code>,<code>@Service</code>,<code>@Controller</code>)注解的 bean，注解默认会扫描该类所在的包下所有的类。</li><li><code>@Configuration</code>：允许在 Spring 上下文中注册额外的 bean 或导入其他配置类</li></ul><p>\39. SpringBoot支持配置文件的格式?</p><p><strong>xml yml Properties</strong> </p><h2 id="40-Tomcat默认端口是多少？"><a href="#40-Tomcat默认端口是多少？" class="headerlink" title="\40. Tomcat默认端口是多少？"></a>\40. Tomcat默认端口是多少？</h2><p>8080</p><h2 id="41-Tomcat下有哪几个文件夹，有什么用？"><a href="#41-Tomcat下有哪几个文件夹，有什么用？" class="headerlink" title="\41. Tomcat下有哪几个文件夹，有什么用？"></a>\41. Tomcat下有哪几个文件夹，有什么用？</h2><p>conf：包含tomcat的配置文件</p><p>lib：包含tomcat运行所需的库文件。如jar包</p><p>logs：日志文件</p><p>temp：用于存放临时文件</p><p>webapps：用于存放web应用程序的目录</p><p>bin：包含启动和关闭tomcat的脚本文件</p><p>work：用于存放tomcat编译jsp文件后生成的Servlet文件</p><p><em><strong>*网络*</strong></em> </p><p>\1. OSI 与 TCP&#x2F;IP 各层的结构与功能,都有哪些协议?为什么网络要分层？</p><p>\2. 计算机网络的一些常见状态码</p><p>\3. ping 所使用的协议</p><p>\4. TCP 的三次握手与四次挥手的内容？ TCP 为什么连接是三次握手而断开是四次握手？</p><p>\5. TCP 与 UDP 的区别及使用场景</p><p>\6. HTTP 协议了解么？HTTP 是基于 TCP 还是 UDP 的？</p><p>\7. HTTP 和 HTTPS 的区别了解么？</p><h3 id="数据库"><a href="#数据库" class="headerlink" title="*数据库*"></a><em><strong>*数据库*</strong></em></h3><p><em><strong>*MySQL*</strong></em> </p><p><em><strong>*基础*</strong></em></p><p>\1. 非关系型数据库和关系型数据库的区别？</p><h2 id="2-事务的四大特性了解么"><a href="#2-事务的四大特性了解么" class="headerlink" title="\2. 事务的四大特性了解么?"></a>\2. 事务的四大特性了解么?</h2><p>原子性（A）：事务是最小的单位，不允许被分割。原子性确保事务要么全部完成，要么完全不生效。</p><p>一致性（C）：执行事务前后，数据保持一致。</p><p>隔离性（ I）：并发访问事务时，一个用户的事务不被其他事务干扰，各并发事务之间的数据库是独立的。</p><p>持久性（D）：一个事务被提交之后。它对数据库中数据的改变是持久的，即使数据库发生故障也不应该对其有任何影响。</p><p><strong>只有保证了事务的持久性、原子性、隔离性之后，一致性才能得到保障。</strong></p><p><strong>A I D-&gt;C</strong></p><p>\3. MySQL 事务隔离级别？默认是什么级别？</p><p>\4. 乐观锁与悲观锁的区别?</p><h2 id="5-MySQL-数据库两种存储引擎的区别"><a href="#5-MySQL-数据库两种存储引擎的区别" class="headerlink" title="\5. MySQL 数据库两种存储引擎的区别?"></a>\5. MySQL 数据库两种存储引擎的区别?</h2><p>InnoDB 支持行级别的锁粒度，MyISAM 不支持，只支持表级别的锁粒度。</p><p>MyISAM 不提供事务支持。InnoDB 提供事务支持，实现了 SQL 标准定义了四个隔离级别。</p><p>MyISAM 不支持外键，而 InnoDB 支持。</p><p>MyISAM 不支持 MVCC，而 InnoDB 支持。</p><p>虽然 MyISAM 引擎和 InnoDB 引擎都是使用 B+Tree 作为索引结构，但是两者的实现方式不太一样。</p><p>MyISAM 不支持数据库异常崩溃后的安全恢复，而 InnoDB 支持。</p><p>InnoDB 的性能比 MyISAM 更强大。</p><p><em><strong>*索引*</strong></em></p><h2 id="1-为什么索引能提高查询速度"><a href="#1-为什么索引能提高查询速度" class="headerlink" title="\1. 为什么索引能提高查询速度?"></a>\1. 为什么索引能提高查询速度?</h2><p> 索引通过将数据表中的某些列作为索引的键值，数据库系统可以根据这些键值快速定位到相应的数据行，从而提高查询速度。</p><h2 id="2-聚集索引和非聚集索引的区别？非聚集索引一定回表查询吗"><a href="#2-聚集索引和非聚集索引的区别？非聚集索引一定回表查询吗" class="headerlink" title="\2. 聚集索引和非聚集索引的区别？非聚集索引一定回表查询吗?"></a>\2. 聚集索引和非聚集索引的区别？非聚集索引一定回表查询吗?</h2><p>不一定，这涉及到查询语句所要求的字段是否全部命中了索引，如果全部命中了索引，那么就不必再进行回表查询。</p><h2 id="3-索引这么多优点，为什么不对表中的每一个列创建一个索引呢？-使用索引一定能提高查询性能吗"><a href="#3-索引这么多优点，为什么不对表中的每一个列创建一个索引呢？-使用索引一定能提高查询性能吗" class="headerlink" title="\3. 索引这么多优点，为什么不对表中的每一个列创建一个索引呢？(使用索引一定能提高查询性能吗?)"></a>\3. 索引这么多优点，为什么不对表中的每一个列创建一个索引呢？(使用索引一定能提高查询性能吗?)</h2><ul><li>创建索引和维护索引需要耗费许多时间。当对表中的数据进行增删改的时候，如果数据有索引，那么索引也需要动态的修改，会降低 SQL 执行效率。</li><li>索引需要使用物理文件存储，也会耗费一定空间。</li></ul><p>大多数情况下，索引查询都是比全表扫描要快的。但是如果数据库的数据量不大，那么使用索引也不一定能够带来很大提升。</p><h2 id="4-索引底层的数据结构了解么？Hash-索引和-B-树索引优劣分析"><a href="#4-索引底层的数据结构了解么？Hash-索引和-B-树索引优劣分析" class="headerlink" title="\4. 索引底层的数据结构了解么？Hash 索引和 B+树索引优劣分析"></a>\4. 索引底层的数据结构了解么？Hash 索引和 B+树索引优劣分析</h2><p>常见的索引结构有: B 树， B+树 和 Hash、红黑树。</p><p>大多数情况下,直接选择B+树索引可以获得稳定且较好的查询速度,而不需要使用Hash索引.</p><p>Hash索引查找速度很快O（1），但是不支持顺序和范围查找。</p><p>B+树索引查询效率比较稳定支持范围查询</p><h2 id="5-最左前缀匹配原则了解么？"><a href="#5-最左前缀匹配原则了解么？" class="headerlink" title="\5. 最左前缀匹配原则了解么？"></a>\5. 最左前缀匹配原则了解么？</h2><p>最左前缀匹配原则指的是在使用联合索引时，MySQL 会根据索引中的字段顺序，从左到右依次匹配查询条件中的字段。如果查询条件与索引中的最左侧字段相匹配，那么 MySQL 就会使用索引来过滤数据，这样可以提高查询效率</p><p><em><strong>*进阶*</strong></em></p><p>\1. 一条 SQL 语句在 MySQL 中如何执行的？</p><p>\2. 简单说一下 SQL 调优思路。</p><p>\3. 简单说一下大表优化的思路。</p><p>\4. 分库分表了解么？为什么要分库分表？有哪些常见的分库分表工具(sharding-jdbc、TSharding、MyCAT…)？</p><p><em><strong>*Tomcat*</strong></em> <em><strong>*⭐⭐*</strong></em></p><p>\5. 你怎样给 tomcat 去调优?</p><p>\6. 如何禁用 DNS 查询？</p><p>\7. 怎么调整线程数？如何加大 tomcat 连接数？</p><p>\8. tomcat 中如何禁止列目录下的文件？</p><p>\9. 怎样加大 tomcat 的内存。</p><h1 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h1><h2 id="1-什么是nginx"><a href="#1-什么是nginx" class="headerlink" title="1.什么是nginx?"></a>1.什么是nginx?</h2><p>Nginx是一款<strong>轻量级</strong>的Web 服务器&#x2F;反向代理服务器及电子邮件（IMAP&#x2F;POP3）代理服务器，在BSD-like 协议下发行。其特点是<strong>占有内存少，并发能力强</strong>，Nginx还支持热部署，启动简单，可以做到7*24不间断运行。几个月都不需要重新启动。</p><h2 id="2-nginx主要特征"><a href="#2-nginx主要特征" class="headerlink" title="2.nginx主要特征?"></a>2.nginx主要特征?</h2><p>轻量级，高性能，多进程</p><h2 id="3-nginx-常用命令"><a href="#3-nginx-常用命令" class="headerlink" title="3.nginx 常用命令?"></a>3.nginx 常用命令?</h2><p>nginx 启动nginx</p><p>nginx -s reload  重新加载配置文件</p><p>niginx -s stop 立即停止nginx</p><p>nginx -s quit 等待所有请求结束后关闭nginx</p><h2 id="4-工作模式及连接数上限"><a href="#4-工作模式及连接数上限" class="headerlink" title="4.工作模式及连接数上限?"></a>4.工作模式及连接数上限?</h2><p>Nginx的工作模式就是采用一个master进程和多个worker工作进程，其中master进程的作用也是很明确的就是负责管理worker进程，同时监听连接请求，当连接请求到来之后将连接放入worker进程中去处理具体的业务请求，比如说http请求。 Nginx能够处理高并发的原因在于对socket的管理方式是异步非阻塞的，使用select&#x2F;poll&#x2F;epoll&#x2F;kqueue 来实现对大量socket描述符的管理，每个worker进程只有一个主线程，而没有其他的线程。这样的好处就在于不需要进行线程间的切换，省了资源。</p><p>在 Nginx 配置中，可以通过 <code>worker_connections</code> 指令来设置每个 worker 进程的最大连接数。例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">worker_processes 4;</span><br><span class="line">events &#123;</span><br><span class="line">    worker_connections 1024;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这里的 <code>worker_processes</code> 是 worker 进程的数量，<code>worker_connections</code> 是每个 worker 进程的最大连接数。因此，上述配置中，Nginx 允许每个 worker 进程最多有 1024 个连接。</p><h2 id="5-nginx负载均衡几种算法"><a href="#5-nginx负载均衡几种算法" class="headerlink" title="5.nginx负载均衡几种算法?"></a>5.nginx负载均衡几种算法?</h2><p><strong>1、轮询（默认）</strong></p><p>每个请求按时间顺序逐一分配到不同的后端服务，如果后端某台服务器死机，自动剔除故障系统，使用户访问不受影响。</p><p>例如：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">upstream bakend &#123;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.1</span>;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.2</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>2、weight（轮询权值）</strong></p><p>weight的值越大分配到的访问概率越高，主要用于后端每台服务器性能不均衡的情况下。或者仅仅为在主从的情况下设置不同的权值，达到合理有效的地利用主机资源。</p><p>例如：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">upstream bakend &#123;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.1</span> weight=<span class="number">10</span>;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.2</span> weight=<span class="number">10</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>3、ip_hash</strong></p><p>每个请求按访问IP的哈希结果分配，使来自同一个IP的访客固定访问一台后端服务器，并且可以有效解决动态网页存在的session共享问题。</p><p>例如：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">upstream bakend &#123;  </span><br><span class="line">    ip_hash;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.1</span>:<span class="number">88</span>;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.2</span>:<span class="number">80</span>;  </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure><p><strong>4、fair（第三方）</strong></p><p>比 weight、ip_hash更加智能的负载均衡算法，fair算法可以根据页面大小和加载时间长短智能地进行负载均衡，也就是根据后端服务器的响应时间 来分配请求，响应时间短的优先分配。Nginx本身不支持fair，如果需要这种调度算法，则必须安装upstream_fair模块。</p><p>例如：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">upstream backend &#123;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.1</span>:<span class="number">88</span>;  </span><br><span class="line">    server <span class="number">192.168</span><span class="number">.0</span><span class="number">.2</span>:<span class="number">80</span>;  </span><br><span class="line">    fair;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="5、url-hash（第三方）"><a href="#5、url-hash（第三方）" class="headerlink" title="5、url_hash（第三方）"></a>5、url_hash（第三方）</h5><p>按访问的URL的哈希结果来分配请求，使每个URL定向到一台后端服务器，可以进一步提高后端缓存服务器的效率。Nginx本身不支持url_hash，如果需要这种调度算法，则必须安装Nginx的hash软件包。</p><p>按访问url的hash结果来分配请求，使每个url定向到同一个后端服务器，后端服务器为缓存时比较有效。<br>例如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">upstream backend &#123;  </span><br><span class="line">    server 192.168.0.1:88;  </span><br><span class="line">    server 192.168.0.2:80;  </span><br><span class="line">    hash $request_uri;  </span><br><span class="line">    hash_method crc32;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="工商银行2024校园招聘宣传片"><a href="#工商银行2024校园招聘宣传片" class="headerlink" title="工商银行2024校园招聘宣传片"></a>工商银行2024校园招聘宣传片</h1><div align=center class="aspect-ratio"><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=321018321&bvid=BV1tw411i7Xs&cid=1268770261&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>]]></content>
       
       
       <categories>
           
-          <category> 学习 </category>
+          <category> 综合 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 教程 </tag>
+            <tag> 综合 </tag>
             
         </tags>
       
@@ -29,23 +29,23 @@
     
     
     <entry>
-      <title>git入门教程</title>
-      <link href="/2023/07/20/git/"/>
-      <url>/2023/07/20/git/</url>
+      <title>工银理财·天天鑫添益</title>
+      <link href="/2025/02/03/1/"/>
+      <url>/2025/02/03/1/</url>
       
-        <content type="html"><![CDATA[<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p><strong>git init</strong>:把这个目录变成git可以管理的仓库,目录下会多了一个.git的目录。</p><p>下面以1.txt这个文件为例</p><p><strong>git add 1.txt +git commit -m ‘注释’</strong>:将1.txt这个文件提交给仓库。</p><p><img src="https://bu.dusays.com/2023/07/20/64b8d3a42cc71.png" alt="1.png"></p><p><strong>git status</strong>：查看是否还有文件未提交</p><p><img src="https://bu.dusays.com/2023/07/20/64b8d43a58fbe.png" alt="2.png"></p><p><strong>git diff 1.txt</strong> :看下1.txt文件到底改了什么内容</p><p><strong>git log</strong>：查看历史记录，git log命令显示从最近到最远的显示日志，我们可以看到最近三次提交，最近的一次是,增加内容为222.如果嫌上面显示的信息太多的话，我们可以使用命令 <strong>git log –pretty&#x3D;oneline</strong>.</p><p><img src="https://bu.dusays.com/2023/07/20/64b8d4c42b507.png" alt="1689834696888.png"></p><p>现在我想使用版本回退操作，我想把当前的版本回退到上一个版本，要使用什么命令呢？可以使用如下2种命令，第一种是：git reset –hard HEAD^ 那么如果要回退到上上个版本只需把HEAD^ 改成 HEAD^^ 以此类推。那如果要回退到前100个版本的话，使用上面的方法肯定不方便，我们可以使用下面的简便命令操作：git reset –hard HEAD~100 即可。</p><p><strong>git reset –hard HEAD^</strong> ：</p><p><img src="https://bu.dusays.com/2023/07/20/64b8d5664dcdd.png" alt="1689834860181.png"></p><p>我们看到 增加22222 内容我们没有看到了，但是现在我想回退到最新的版本，如：有22222的内容要如何恢复呢？我们可以通过版本号回退，使用命令方法如下：</p><p>git reset –hard 版本号 ，但是现在的问题假如我已经关掉过一次命令行或者22222内容的版本号我并不知道呢？要如何知道增加22222内容的版本号呢？可以通过如下命令即可获取到版本号：git reflog 演示如下：</p><p><img src="https://bu.dusays.com/2023/07/20/64b8d5c057245.png" alt="1689834949300.png"></p><p>通过上面的显示我们可以知道，增加内容3333的版本号是 f68b3a5.我们现在可以命令</p><p>git reset –hard  f68b3a5来恢复了。演示如下：</p><p><img src="https://bu.dusays.com/2023/07/20/64b8d5fe25dd8.png" alt="1689835011707.png"></p><h2 id="理解工作区与暂存区的区别？"><a href="#理解工作区与暂存区的区别？" class="headerlink" title="理解工作区与暂存区的区别？"></a><strong>理解工作区与暂存区的区别？</strong></h2><p>工作区：就是你在电脑上看到的目录，比如目录下testgit里的文件(.git隐藏目录版本库除外)。或者以后需要再新建的目录文件等等都属于工作区范畴。<br>版本库(Repository)：工作区有一个隐藏目录.git,这个不属于工作区，这是版本库。其中版本库里面存了很多东西，其中最重要的就是stage(暂存区)，还有Git为我们自动创建了第一个分支master,以及指向master的一个指针HEAD。</p><p>我们前面说过使用Git提交文件到版本库有两步：</p><p>第一步：是使用 git add 把文件添加进去，实际上就是把文件添加到暂存区。</p><p>第二步：使用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支上。</p><h2 id="Git撤销修改和删除文件操作。"><a href="#Git撤销修改和删除文件操作。" class="headerlink" title="Git撤销修改和删除文件操作。"></a><strong>Git撤销修改和删除文件操作。</strong></h2><p>一：撤销修改：<br>比如我现在在readme.txt文件里面增加一行 内容为555555555555，我们先通过命令查看如下：</p><p>在我未提交之前，我发现添加5555555555555内容有误，所以我得马上恢复以前的版本，现在我可以有如下几种方法可以做修改：</p><p>第一：如果我知道要删掉那些内容的话，直接手动更改去掉那些需要的文件，然后add添加到暂存区，最后commit掉。</p><p>第二：我可以按以前的方法直接恢复到上一个版本。使用 git reset –hard HEAD^</p><p>命令 git checkout –readme.txt 意思就是，把1.txt文件在工作区做的修改全部撤销，这里有2种情况，如下：</p><p>1.1.txt自动修改后，还没有放到暂存区，使用 撤销修改就回到和版本库一模一样的状态。<br>2.另外一种是1.txt已经放入暂存区了，接着又作了修改，撤销修改就回到添加暂存区后的状态。<br>对于第二种情况，我想我们继续做demo来看下，假如现在我对1.txt添加一行 内容为6666666666666，我git add 增加到暂存区后，接着添加内容7777777，我想通过撤销命令让其回到暂存区后的状态。</p><p><strong>注意：命令git checkout – readme.txt 中的 – 很重要，如果没有 – 的话，那么命令变成创建分支了。</strong></p><h2 id="Github远程仓库"><a href="#Github远程仓库" class="headerlink" title="Github远程仓库"></a><strong>Github远程仓库</strong></h2><p>前置注册以及配置sshkey步骤跳过。</p><p>在github上创建仓库后页面会有提示，按照提示进行即可。</p><p>注意：在进行下述步骤前请先git init+git add+git commit -m。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/beichengouo/gittest.git</span><br><span class="line"></span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><p><img src="https://bu.dusays.com/2023/07/20/64b8d96257278.png" alt="1689835878164.png">、</p><p>使用命令git clone克隆一个本地库。</p><p>git clone <a href="https://github.com/beichengouo/gittest.git">https://github.com/beichengouo/gittest.git</a></p><p>总结创建与合并分支命令如下：</p><p>查看分支：git branch</p><p>创建分支：git branch name</p><p>切换分支：git checkout name</p><p>创建+切换分支：git checkout –b name</p><p>合并某分支到当前分支：git merge name</p><p>删除分支：git branch –d name</p><h2 id="git命令大全："><a href="#git命令大全：" class="headerlink" title="git命令大全："></a>git命令大全：</h2><p><strong>一、新建代码库</strong></p><p># 在当前目录新建一个Git代码库<br>$ git init</p><p># 新建一个目录，将其初始化为Git代码库<br>$ git init [project-name] # 下载一个项目和它的整个代码历史<br>$ git clone [url]</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">二、配置</span><br></pre></td></tr></table></figure><p># 显示当前的Git配置<br>$ git config –list</p><p># 编辑Git配置文件<br>$ git config -e [–global] # 设置提交代码时的用户信息<br>$ git config [–global] user.name “[name]”<br>$ git config [–global] user.email “[email address]”</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">三、增加/删除文件</span><br></pre></td></tr></table></figure><p># 添加指定文件到暂存区<br>$ git add [file1] [file2] … # 添加指定目录到暂存区，包括子目录<br>$ git add [dir] # 添加当前目录的所有文件到暂存区<br>$ git add . # 添加每个变化前，都会要求确认 # 对于同一个文件的多处变化，可以实现分次提交<br>$ git add -p</p><p># 删除工作区文件，并且将这次删除放入暂存区<br>$ git rm [file1] [file2] … # 停止追踪指定文件，但该文件会保留在工作区<br>$ git rm –cached [file] # 改名文件，并且将这个改名放入暂存区<br>$ git mv [file-original] [file-renamed]</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">四、代码提交</span><br></pre></td></tr></table></figure><p># 提交暂存区到仓库区<br>$ git commit -m [message] # 提交暂存区的指定文件到仓库区<br>$ git commit [file1] [file2] … -m [message] # 提交工作区自上次commit之后的变化，直接到仓库区<br>$ git commit -a</p><p># 提交时显示所有diff信息<br>$ git commit -v</p><p># 使用一次新的commit，替代上一次提交 # 如果代码没有任何新变化，则用来改写上一次commit的提交信息<br>$ git commit –amend -m [message] # 重做上一次commit，并包括指定文件的新变化<br>$ git commit –amend [file1] [file2] …</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">五、分支</span><br></pre></td></tr></table></figure><p># 列出所有本地分支<br>$ git branch</p><p># 列出所有远程分支<br>$ git branch -r</p><p># 列出所有本地分支和远程分支<br>$ git branch -a</p><p># 新建一个分支，但依然停留在当前分支<br>$ git branch [branch-name] # 新建一个分支，并切换到该分支<br>$ git checkout -b [branch] # 新建一个分支，指向指定commit<br>$ git branch [branch] [commit] # 新建一个分支，与指定的远程分支建立追踪关系<br>$ git branch –track [branch] [remote-branch] # 切换到指定分支，并更新工作区<br>$ git checkout [branch-name] # 切换到上一个分支<br>$ git checkout - # 建立追踪关系，在现有分支与指定的远程分支之间<br>$ git branch –set-upstream [branch] [remote-branch] # 合并指定分支到当前分支<br>$ git merge [branch] # 选择一个commit，合并进当前分支<br>$ git cherry-pick [commit] # 删除分支<br>$ git branch -d [branch-name] # 删除远程分支<br>$ git push origin –delete [branch-name]<br>$ git branch -dr [remote&#x2F;branch]</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">六、标签</span><br></pre></td></tr></table></figure><p># 列出所有tag<br>$ git tag</p><p># 新建一个tag在当前commit<br>$ git tag [tag] # 新建一个tag在指定commit<br>$ git tag [tag] [commit] # 删除本地tag<br>$ git tag -d [tag] # 删除远程tag<br>$ git push origin :refs&#x2F;tags&#x2F;[tagName] # 查看tag信息<br>$ git show [tag] # 提交指定tag<br>$ git push [remote] [tag] # 提交所有tag<br>$ git push [remote] –tags</p><p># 新建一个分支，指向某个tag<br>$ git checkout -b [branch] [tag]</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">七、查看信息</span><br></pre></td></tr></table></figure><p># 显示有变更的文件<br>$ git status</p><p># 显示当前分支的版本历史<br>$ git log</p><p># 显示commit历史，以及每次commit发生变更的文件<br>$ git log –stat</p><p># 搜索提交历史，根据关键词<br>$ git log -S [keyword] # 显示某个commit之后的所有变动，每个commit占据一行<br>$ git log [tag] HEAD –pretty&#x3D;format:%s</p><p># 显示某个commit之后的所有变动，其”提交说明”必须符合搜索条件<br>$ git log [tag] HEAD –grep feature</p><p># 显示某个文件的版本历史，包括文件改名<br>$ git log –follow [file]<br>$ git whatchanged [file] # 显示指定文件相关的每一次diff<br>$ git log -p [file] # 显示过去5次提交<br>$ git log -5 –pretty –oneline</p><p># 显示所有提交过的用户，按提交次数排序<br>$ git shortlog -sn</p><p># 显示指定文件是什么人在什么时间修改过<br>$ git blame [file] # 显示暂存区和工作区的差异<br>$ git diff</p><p># 显示暂存区和上一个commit的差异<br>$ git diff –cached [file] # 显示工作区与当前分支最新commit之间的差异<br>$ git diff HEAD</p><p># 显示两次提交之间的差异<br>$ git diff [first-branch]…[second-branch] # 显示今天你写了多少行代码<br>$ git diff –shortstat “@{0 day ago}” # 显示某次提交的元数据和内容变化<br>$ git show [commit] # 显示某次提交发生变化的文件<br>$ git show –name-only [commit] # 显示某次提交时，某个文件的内容<br>$ git show [commit]:[filename] # 显示当前分支的最近几次提交<br>$ git reflog</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">八、远程同步</span><br></pre></td></tr></table></figure><p># 下载远程仓库的所有变动<br>$ git fetch [remote] # 显示所有远程仓库<br>$ git remote -v</p><p># 显示某个远程仓库的信息<br>$ git remote show [remote] # 增加一个新的远程仓库，并命名<br>$ git remote add [shortname] [url] # 取回远程仓库的变化，并与本地分支合并<br>$ git pull [remote] [branch] # 上传本地指定分支到远程仓库<br>$ git push [remote] [branch] # 强行推送当前分支到远程仓库，即使有冲突<br>$ git push [remote] –force</p><p># 推送所有分支到远程仓库<br>$ git push [remote] –all</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">九、撤销</span><br></pre></td></tr></table></figure><p># 恢复暂存区的指定文件到工作区<br>$ git checkout [file] # 恢复某个commit的指定文件到暂存区和工作区<br>$ git checkout [commit] [file] # 恢复暂存区的所有文件到工作区<br>$ git checkout . # 重置暂存区的指定文件，与上一次commit保持一致，但工作区不变<br>$ git reset [file] # 重置暂存区与工作区，与上一次commit保持一致<br>$ git reset –hard</p><p># 重置当前分支的指针为指定commit，同时重置暂存区，但工作区不变<br>$ git reset [commit] # 重置当前分支的HEAD为指定commit，同时重置暂存区和工作区，与指定commit一致<br>$ git reset –hard [commit] # 重置当前HEAD为指定commit，但保持暂存区和工作区不变<br>$ git reset –keep [commit] # 新建一个commit，用来撤销指定commit # 后者的所有变化都将被前者抵消，并且应用到当前分支<br>$ git revert [commit] # 暂时将未提交的变化移除，稍后再移入<br>$ git stash<br>$ git stash pop</p><p>参考文章：<a href="https://zhuanlan.zhihu.com/p/30044692">Git使用教程,最详细，最傻瓜，最浅显，真正手把手教 - 知乎 (zhihu.com)</a></p><h2 id="git-add-文件"><a href="#git-add-文件" class="headerlink" title="git add 文件"></a>git add 文件</h2><p>方法一 git add 添加多个文件，文件之间以空格隔开</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add file1 file2 file3</span><br></pre></td></tr></table></figure><p>方法二 多次git add</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add file1</span><br><span class="line">git add file2</span><br><span class="line">git add file2</span><br></pre></td></tr></table></figure><p>方法三 添加指定目录下的文件<br>config目录下及子目录下所有文件，home目录下的所有.php文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config/*</span><br><span class="line">git home/*.php</span><br></pre></td></tr></table></figure><p>方法四 git add . 添加所有的文件， 或者 git add –all 添加所有的文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git add --all</span><br></pre></td></tr></table></figure><h4 id="git-add-文件夹"><a href="#git-add-文件夹" class="headerlink" title="git add 文件夹"></a>git add 文件夹</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add 文件夹名</span><br></pre></td></tr></table></figure><p>git commit 提交到版本库<br>git add 目的是将修改文件由工作区提交到暂存区，可以多次提交<br>然后commit操作，将文件从暂存区提交到版本库</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;add new file&quot;</span><br></pre></td></tr></table></figure><p>————————————————</p><p>原文链接：<a href="https://blog.csdn.net/sphinx1122/article/details/89789929">https://blog.csdn.net/sphinx1122/article/details/89789929</a></p>]]></content>
+        <content type="html"><![CDATA[<h4 id="工银理财·天天鑫添益"><a href="#工银理财·天天鑫添益" class="headerlink" title="工银理财·天天鑫添益"></a>工银理财·天天鑫添益</h4><p>成立以来年化收益：2.28%</p><p>业绩周期（ 2024.07.26-2025.01.24 ）</p><h1 id="投资期限-每天开放"><a href="#投资期限-每天开放" class="headerlink" title="投资期限　每天开放"></a>投资期限　每天开放</h1><h1 id="起购金额-1-元-低风险-代销"><a href="#起购金额-1-元-低风险-代销" class="headerlink" title="起购金额 1 元 | 低风险 | 代销"></a>起购金额 1 元 | 低风险 | 代销</h1><h6 id="理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。-业绩来源：本理财产品过往业绩由产品管理人工银理财有限责任公司基于理财产品净值计算。本理财产品业绩计算规则参照理财行业通行计算标准制定，计算时本着真实、准确、全面的原则使用统计数据和资料，相关净值数据已经理财产品托管人复核，并按照相关监管规定和行业准则的有关要求执行。理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。"><a href="#理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。-业绩来源：本理财产品过往业绩由产品管理人工银理财有限责任公司基于理财产品净值计算。本理财产品业绩计算规则参照理财行业通行计算标准制定，计算时本着真实、准确、全面的原则使用统计数据和资料，相关净值数据已经理财产品托管人复核，并按照相关监管规定和行业准则的有关要求执行。理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。" class="headerlink" title="理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。 业绩来源：本理财产品过往业绩由产品管理人工银理财有限责任公司基于理财产品净值计算。本理财产品业绩计算规则参照理财行业通行计算标准制定，计算时本着真实、准确、全面的原则使用统计数据和资料，相关净值数据已经理财产品托管人复核，并按照相关监管规定和行业准则的有关要求执行。理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。"></a>理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。 业绩来源：本理财产品过往业绩由产品管理人工银理财有限责任公司基于理财产品净值计算。本理财产品业绩计算规则参照理财行业通行计算标准制定，计算时本着真实、准确、全面的原则使用统计数据和资料，相关净值数据已经理财产品托管人复核，并按照相关监管规定和行业准则的有关要求执行。理财产品过往业绩不代表其未来表现，不等于理财产品实际收益，投资须谨慎。</h6>]]></content>
       
       
       <categories>
           
-          <category> 学习 </category>
+          <category> 理财 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 教程 </tag>
+            <tag> 理财 </tag>
             
         </tags>
       
@@ -54,381 +54,21 @@
     
     
     <entry>
-      <title>QQ机器人3.0更新工作（6/15）</title>
-      <link href="/2023/06/13/qbot2/"/>
-      <url>/2023/06/13/qbot2/</url>
+      <title>测试(2025/2/3)</title>
+      <link href="/2025/02/03/test/"/>
+      <url>/2025/02/03/test/</url>
       
-        <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。</p><p>机器人QQ：2468138690</p><p>可直接验证添加</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-6-x2F-13"><a href="#2023-x2F-6-x2F-13" class="headerlink" title="2023&#x2F;6&#x2F;13"></a>2023&#x2F;6&#x2F;13</h3><p>1.优化了用户体验，非管理员统一使用猫娘人格，且增加了好感度设定，默认好感度为30，经测试正常询问专业问题不会出错。现在更偏向于日常聊天。</p><p>2.优化了指令表，删减了几个人格，优化了指令说明。</p><p>3.目前私聊bot也会有1&#x2F;2的概率在每个回答后面增加随机表情。</p><p><a href="https://bu.dusays.com/2023/06/13/648875e382857.jpg"><img src="https://bu.dusays.com/2023/06/13/648875e382857.jpg" alt="Screenshot_2023-06-13-21-56-52-491_com.tencent.mo.jpg"></a></p><p>4.优化了在群内的频繁随机回复情况。</p><p><a href="https://bu.dusays.com/2023/06/13/6488763a87c09.jpg"><img src="https://bu.dusays.com/2023/06/13/6488763a87c09.jpg" alt="Screenshot_2023-06-13-21-59-01-570_com.tencent.mo.jpg"></a></p><h3 id="2023-x2F-6-x2F-15（重大更新）"><a href="#2023-x2F-6-x2F-15（重大更新）" class="headerlink" title="2023&#x2F;6&#x2F;15（重大更新）"></a>2023&#x2F;6&#x2F;15（重大更新）</h3><p>机器人模型替换为gpt-3.5-turbo-16k-0613。现已支持联网功能，支持实时搜索互联网最新消息。</p><p><a href="https://bu.dusays.com/2023/06/15/648a9a9aec70f.jpg"><img src="https://bu.dusays.com/2023/06/15/648a9a9aec70f.jpg" alt="Screenshot_2023-06-15-12-48-58-436_com.tencent.mo.jpg"></a></p><h2 id="通知："><a href="#通知：" class="headerlink" title="通知："></a>通知：</h2><p>gpt的apikey的免费余额会在7.1到期，到时候在决定注册账号白嫖还是绑卡支付（绑卡需要国外信用卡，国内visa不可用比较麻烦）。</p><p>云主机会在7&#x2F;7到期，由于云主机必须是国外主机，不好找便宜的（这个是新用户注册有优惠，三个月20r），有推荐的可以d我。</p><p>所以七月份大概率机器人会停运一段时间。</p>]]></content>
+        <content type="html"><![CDATA[<p>本篇文章为测试文章。</p><p><strong>本篇文章为测试文章。</strong></p><p><em>本篇文章为测试文章。</em></p><h1 id="本篇文章为测试文章。"><a href="#本篇文章为测试文章。" class="headerlink" title="本篇文章为测试文章。"></a>本篇文章为测试文章。</h1><h2 id="本篇文章为测试文章。-1"><a href="#本篇文章为测试文章。-1" class="headerlink" title="本篇文章为测试文章。"></a>本篇文章为测试文章。</h2><h3 id="本篇文章为测试文章。-2"><a href="#本篇文章为测试文章。-2" class="headerlink" title="本篇文章为测试文章。"></a>本篇文章为测试文章。</h3><h4 id="本篇文章为测试文章。-3"><a href="#本篇文章为测试文章。-3" class="headerlink" title="本篇文章为测试文章。"></a>本篇文章为测试文章。</h4><h6 id="本篇文章为测试文章。-4"><a href="#本篇文章为测试文章。-4" class="headerlink" title="本篇文章为测试文章。"></a>本篇文章为测试文章。</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本篇文章为测试文章。</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> Ai人工智能 </category>
+          <category> 更新日志 </category>
           
       </categories>
       
       
         <tags>
-            
-            <tag> Ai </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>07-Java基础知识-异常处理</title>
-      <link href="/2023/06/01/java7/"/>
-      <url>/2023/06/01/java7/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java异常处理"><a href="#Java异常处理" class="headerlink" title="Java异常处理"></a>Java异常处理</h1><p>在Java编程中，异常处理是一种用于处理程序运行时出现的错误情况的机制。异常是指在程序执行过程中发生的意外或异常情况，如输入错误、计算错误、网络连接问题等。通过合理的异常处理机制，可以使程序更加健壮和可靠。</p><h2 id="异常的分类"><a href="#异常的分类" class="headerlink" title="异常的分类"></a>异常的分类</h2><p>Java中的异常分为两种类型：Checked异常和Unchecked异常。</p><ul><li><p>Checked异常：这些异常在代码编译时会被检查，必须在方法的声明中进行声明或捕获。例如，IOException和SQLException就属于Checked异常。</p></li><li><p>Unchecked异常：这些异常在代码编译时不会被检查，也不需要在方法声明中进行声明或捕获。例如，NullPointerException和ArrayIndexOutOfBoundsException就属于Unchecked异常。</p></li></ul><h2 id="异常处理的关键字"><a href="#异常处理的关键字" class="headerlink" title="异常处理的关键字"></a>异常处理的关键字</h2><p>Java提供了一些关键字用于处理异常情况。</p><ul><li>try：包裹可能抛出异常的代码块，并且后面必须跟着catch块或finally块。</li><li>catch：用于捕获异常，并指定相应的处理逻辑。</li><li>finally：用于定义无论是否发生异常都需要执行的代码块。通常用于资源的释放操作，如关闭文件或数据库连接。</li><li>throw：用于抛出异常，可以手动触发异常的发生。</li><li>throws：在方法声明中指定可能抛出的异常，表示该方法可能会出现异常，需要调用该方法的代码进行处理。</li></ul><h2 id="异常处理的示例代码"><a href="#异常处理的示例代码" class="headerlink" title="异常处理的示例代码"></a>异常处理的示例代码</h2><p>下面是一个简单的示例代码，演示了如何使用try-catch-finally来处理异常：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ExceptionHandlingExample</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 可能抛出异常的代码</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> divide(<span class="number">10</span>, <span class="number">0</span>);</span><br><span class="line">            System.out.println(<span class="string">&quot;Result: &quot;</span> + result);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (ArithmeticException e) &#123;</span><br><span class="line">            <span class="comment">// 捕获并处理异常</span></span><br><span class="line">            System.out.println(<span class="string">&quot;Error: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="comment">// 无论是否发生异常，都会执行的代码块</span></span><br><span class="line">            System.out.println(<span class="string">&quot;Finally block&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">divide</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> &#123;</span><br><span class="line">        <span class="comment">// 除法运算，可能触发除零异常</span></span><br><span class="line">        <span class="keyword">return</span> a / b;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在上述代码中，如果除数为0，则会触发ArithmeticException异常，catch块会捕获该异常并输出错误信息，最后无论是否发生异常，finally块中的代码都会被执行。</p><h2 id="异常处理的最佳实践"><a href="#异常处理的最佳实践" class="headerlink" title="异常处理的最佳实践"></a>异常处理的最佳实践</h2><ul><li><p>使用具体的异常类型进行捕获和处理，避免使用泛化的Exception类型，以便更精确地处理异常情况。</p></li><li><p>捕获异常后，可以选择进行恢复操作、重新抛出异常或记录异常信息等处理方式，具体根据实际需求进行决定。</p></li><li><p>在finally块中进行资源的释放操作，确保资源能够被正确关闭，以避免资源泄漏。</p><ul><li><p>尽量避免在finally块中抛出异常，以免覆盖原始的异常信息。</p></li><li><p>在编写自定义异常类时，应该继承自Exception或其子类，并提供适当的构造方法和异常信息。</p></li><li><p>在处理异常时，可以使用多个catch块来捕获不同类型的异常，并针对每种异常类型进行相应的处理逻辑。</p></li><li><p>使用throws关键字声明可能抛出的异常，以便调用该方法的代码能够进行适当的异常处理。</p></li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>异常处理是Java编程中重要的一部分，通过合理的异常处理机制可以提高程序的稳定性和可靠性。在编写代码时，要根据具体的情况选择合适的异常类型进行捕获和处理，并注意资源的释放和异常信息的记录。合理的异常处理能够帮助我们更好地应对各种意外情况，使程序更加健壮和可维护。</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>06-Java基础知识-字符串</title>
-      <link href="/2023/06/01/java6/"/>
-      <url>/2023/06/01/java6/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java字符串简介"><a href="#Java字符串简介" class="headerlink" title="Java字符串简介"></a>Java字符串简介</h1><p>在Java编程中，字符串是一种常见的数据类型，用于表示文本数据。字符串在Java中是不可变的，这意味着一旦创建了一个字符串对象，就无法改变它的内容。Java提供了丰富的字符串处理功能，使得字符串操作变得简单和高效。</p><h2 id="创建字符串对象"><a href="#创建字符串对象" class="headerlink" title="创建字符串对象"></a>创建字符串对象</h2><p>可以使用两种方式来创建字符串对象：</p><ol><li><p>直接赋值：可以使用双引号（”）将文本括起来，创建一个字符串对象。例如：<code>String str = &quot;Hello, Java!&quot;;</code></p></li><li><p>使用<code>new</code>关键字：可以使用<code>new</code>关键字创建一个字符串对象。例如：<code>String str = new String(&quot;Hello, Java!&quot;);</code></p></li></ol><h2 id="字符串操作"><a href="#字符串操作" class="headerlink" title="字符串操作"></a>字符串操作</h2><p>Java提供了丰富的字符串操作方法，可以对字符串进行各种操作，包括：</p><ul><li>连接字符串：可以使用<code>+</code>操作符或<code>concat()</code>方法将多个字符串连接起来。</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">str1</span> <span class="operator">=</span> <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">str2</span> <span class="operator">=</span> <span class="string">&quot;Java&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> str1 + <span class="string">&quot; &quot;</span> + str2; <span class="comment">// 结果为 &quot;Hello Java&quot;</span></span><br></pre></td></tr></table></figure><ul><li>获取字符串长度：可以使用<code>length()</code>方法获取字符串的长度。</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;Hello, Java!&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">length</span> <span class="operator">=</span> str.length(); <span class="comment">// 结果为 13</span></span><br></pre></td></tr></table></figure><ul><li>提取子串：可以使用<code>substring()</code>方法提取字符串的子串。</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;Hello, Java!&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">subStr</span> <span class="operator">=</span> str.substring(<span class="number">7</span>); <span class="comment">// 结果为 &quot;Java!&quot;</span></span><br></pre></td></tr></table></figure><ul><li>查找子串：可以使用<code>indexOf()</code>方法查找子串在字符串中的位置。</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;Hello, Java!&quot;</span>;</span><br><span class="line"><span class="type">int</span> <span class="variable">index</span> <span class="operator">=</span> str.indexOf(<span class="string">&quot;Java&quot;</span>); <span class="comment">// 结果为 7</span></span><br></pre></td></tr></table></figure><ul><li>替换字符串：可以使用<code>replace()</code>方法替换字符串中的指定内容。</li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;Hello, Java!&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">newStr</span> <span class="operator">=</span> str.replace(<span class="string">&quot;Java&quot;</span>, <span class="string">&quot;World&quot;</span>); <span class="comment">// 结果为 &quot;Hello, World!&quot;</span></span><br></pre></td></tr></table></figure><h2 id="字符串比较"><a href="#字符串比较" class="headerlink" title="字符串比较"></a>字符串比较</h2><p>在Java中，可以使用<code>equals()</code>方法或<code>compareTo()</code>方法来比较字符串的内容。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">str1</span> <span class="operator">=</span> <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">str2</span> <span class="operator">=</span> <span class="string">&quot;hello&quot;</span>;</span><br><span class="line"><span class="type">boolean</span> <span class="variable">isEqual</span> <span class="operator">=</span> str1.equals(str2); <span class="comment">// 结果为 false</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="variable">compareResult</span> <span class="operator">=</span> str1.compareTo(str2); <span class="comment">// 结果为 -32，根据字典顺序比较字符串</span></span><br></pre></td></tr></table></figure><h2 id="字符串的不可变性"><a href="#字符串的不可变性" class="headerlink" title="字符串的不可变性"></a>字符串的不可变性</h2><p>在Java中，字符串是不可变的，这意味着一旦创建了一个字符串对象，就无法改变它的内容。这种特性带来了一些优点，例如字符串的共享和安全性。</p><p>由于字符串是不可变的，对字符串进行修改实际上是创建了一个新的字符串对象。因此，频繁的字符串操作可能会导致性能问题。在需要频繁修改字符串的情况下，可以使用<code>StringBuilder</code>或<code>StringBuffer</code>类来提高性能。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Java字符串是一种常见的数据类型，具有丰富的操作方法。它的不可变性使得字符串处理更简单和安全。在日常的</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>05-Java基础知识-数组</title>
-      <link href="/2023/05/17/java5/"/>
-      <url>/2023/05/17/java5/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java数组介绍"><a href="#Java数组介绍" class="headerlink" title="Java数组介绍"></a>Java数组介绍</h1><p>数组是Java中最常用的数据结构之一，用于存储相同类型的多个元素。数组在Java中具有以下特点：</p><h2 id="1-声明和初始化数组"><a href="#1-声明和初始化数组" class="headerlink" title="1. 声明和初始化数组"></a>1. 声明和初始化数组</h2><p>在Java中，声明数组需要指定数组类型和数组名称，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] numbers; <span class="comment">//声明一个int类型的数组</span></span><br><span class="line">String[] names; <span class="comment">//声明一个String类型的数组</span></span><br></pre></td></tr></table></figure><p>数组的初始化可以通过两种方式进行：</p><h3 id="静态初始化"><a href="#静态初始化" class="headerlink" title="静态初始化"></a>静态初始化</h3><p>静态初始化指在声明数组的同时为数组元素赋初值，使用花括号 <code>&#123;&#125;</code> 来指定初始值，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] numbers = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;; <span class="comment">//初始化一个包含5个元素的int数组</span></span><br><span class="line">String[] names = &#123;<span class="string">&quot;Alice&quot;</span>, <span class="string">&quot;Bob&quot;</span>, <span class="string">&quot;Charlie&quot;</span>&#125;; <span class="comment">//初始化一个包含3个元素的String数组</span></span><br></pre></td></tr></table></figure><h3 id="动态初始化"><a href="#动态初始化" class="headerlink" title="动态初始化"></a>动态初始化</h3><p>动态初始化指先声明数组，然后通过 <code>new</code> 关键字为数组分配内存空间，再为数组元素赋值，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[] numbers = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">5</span>]; <span class="comment">//声明一个包含5个元素的int数组</span></span><br><span class="line">numbers[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">numbers[<span class="number">1</span>] = <span class="number">2</span>;</span><br><span class="line">numbers[<span class="number">2</span>] = <span class="number">3</span>;</span><br><span class="line">numbers[<span class="number">3</span>] = <span class="number">4</span>;</span><br><span class="line">numbers[<span class="number">4</span>] = <span class="number">5</span>;</span><br></pre></td></tr></table></figure><h2 id="2-访问数组元素"><a href="#2-访问数组元素" class="headerlink" title="2. 访问数组元素"></a>2. 访问数组元素</h2><p>数组元素可以通过索引来访问，索引从0开始，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">firstNumber</span> <span class="operator">=</span> numbers[<span class="number">0</span>]; <span class="comment">//访问第一个元素</span></span><br><span class="line"><span class="type">String</span> <span class="variable">firstName</span> <span class="operator">=</span> names[<span class="number">0</span>]; <span class="comment">//访问第一个元素</span></span><br></pre></td></tr></table></figure><h2 id="3-数组长度"><a href="#3-数组长度" class="headerlink" title="3. 数组长度"></a>3. 数组长度</h2><p>可以使用 <code>length</code> 属性获取数组的长度，表示数组中元素的个数，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">length</span> <span class="operator">=</span> numbers.length; <span class="comment">//获取数组的长度</span></span><br></pre></td></tr></table></figure><h2 id="4-遍历数组"><a href="#4-遍历数组" class="headerlink" title="4. 遍历数组"></a>4. 遍历数组</h2><p>遍历数组可以使用循环结构，如 <code>for</code> 循环，来访问数组的每个元素，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; numbers.length; i++) &#123;</span><br><span class="line">    System.out.println(numbers[i]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="5-多维数组"><a href="#5-多维数组" class="headerlink" title="5. 多维数组"></a>5. 多维数组</h2><p>Java还支持多维数组，可以用来存储多个元素的表格或矩阵。多维数组可以通过在声明时指定多个维度来创建，如下所示：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span>[][] matrix = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">3</span>][<span class="number">3</span>]; <span class="comment">//声明一个3x3的二维数组</span></span><br></pre></td></tr></table></figure><p>以上是对Java数组的简单介绍，数组在Java中具有重要的作用，可以方便地存储和操作大量相同类型的数据。通过掌握数组的使用方法，可以更好地处理和管理数据。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>04-Java基础知识-运算符</title>
-      <link href="/2023/05/17/java4/"/>
-      <url>/2023/05/17/java4/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java运算符简介"><a href="#Java运算符简介" class="headerlink" title="Java运算符简介"></a>Java运算符简介</h1><p>在Java编程语言中，运算符用于执行各种操作，包括算术、赋值、比较和逻辑等。了解和正确使用这些运算符是编写高效和功能强大的Java程序的基础。</p><h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><p>算术运算符用于执行基本的数学运算，例如加法、减法、乘法和除法。以下是常用的算术运算符：</p><ul><li>加法运算符（+）：用于将两个值相加。</li><li>减法运算符（-）：用于将一个值减去另一个值。</li><li>乘法运算符（*）：用于将两个值相乘。</li><li>除法运算符（&#x2F;）：用于将一个值除以另一个值。</li><li>取余运算符（%）：用于计算两个值相除的余数。</li></ul><h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><p>赋值运算符用于将一个值赋给一个变量。常见的赋值运算符是等号（&#x3D;），它将右边的值赋给左边的变量。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">x</span> <span class="operator">=</span> <span class="number">10</span>; <span class="comment">// 将值10赋给变量x</span></span><br></pre></td></tr></table></figure><p>除了等号之外，还有一些复合赋值运算符，例如加等（+&#x3D;）、减等（-&#x3D;）、乘等（*&#x3D;）和除等（&#x2F;&#x3D;）。这些复合赋值运算符将右边的值与左边的变量进行运算，并将结果赋给左边的变量。</p><h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><p>比较运算符用于比较两个值之间的关系，并返回一个布尔值（true或false）。以下是常用的比较运算符：</p><ul><li>相等运算符（&#x3D;&#x3D;）：用于检查两个值是否相等。</li><li>不等运算符（!&#x3D;）：用于检查两个值是否不相等。</li><li>大于运算符（&gt;）：用于检查左边的值是否大于右边的值。</li><li>小于运算符（&lt;）：用于检查左边的值是否小于右边的值。</li><li>大于等于运算符（&gt;&#x3D;）：用于检查左边的值是否大于或等于右边的值。</li><li>小于等于运算符（&lt;&#x3D;）：用于检查左边的值是否小于或等于右边的值。</li></ul><h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>逻辑运算符用于执行逻辑运算，例如逻辑与（&amp;&amp;）、逻辑或（||）和逻辑非（!）。这些运算符通常用于条件语句和循环结构中。</p><ul><li>逻辑与（&amp;&amp;）：当两个条件都为真时，返回真。</li><li>逻辑或（||）：当至少有一个条件为真时，返回真。</li><li>逻辑非（!）：对条件的结果进行取反。</li></ul><h2 id="其他运算符"><a href="#其他运算符" class="headerlink" title="其他运算符"></a>其他运算符</h2><p>除了上述提到的运算符外，还有一些其他常见的运算符，包括：</p><ul><li>自增运算符（++）：用于将变量的值增加1。</li><li>自减运算符（–）：用于将变量的值减少1。</li><li>条件运算符（三元运算符）（? :）：用于根据条件选择不同的值。</li><li>位运算符：用于对数据的位进行操作，例如按位与（&amp;）、按位或（|）、按位异或（^）等。</li><li>移位运算符：用于对数据的位进行移动操作，例如左移（&lt;&lt;）、右移（&gt;&gt;）等。</li><li>instanceof运算符：用于检查对象是否是指定类型的实例。</li><li>强制类型转换运算符：用于将一个数据类型转换为另一个数据类型。</li></ul><p>了解和掌握这些运算符的使用方法和规则，能够帮助我们进行复杂的计算和逻辑操作，提高程序的灵活性和效率。</p><p>以上是Java中一些常见的运算符的简要介绍，通过灵活运用这些运算符，我们可以编写出功能丰富且高效的Java程序。在实际编程中，根据具体需求和场景选择合适的运算符是非常重要的。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>03-Java基础知识-数据类型</title>
-      <link href="/2023/05/12/java3/"/>
-      <url>/2023/05/12/java3/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h1><p>Java是一门强类型语言，变量必须先声明并指定数据类型，然后才能进行使用。Java提供了八种基本数据类型和引用类型，本文将简单介绍Java的数据类型。</p><h2 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h2><p>Java的八种基本数据类型分为四类，分别是整型、浮点型、字符型和布尔型。</p><h3 id="整型"><a href="#整型" class="headerlink" title="整型"></a>整型</h3><p>整型包括四种类型，分别是<code>byte</code>、<code>short</code>、<code>int</code>和<code>long</code>。它们分别占用1、2、4和8个字节，表示的范围也不同，如下表所示：</p><table><thead><tr><th>数据类型</th><th>占用字节数</th><th>表示范围</th></tr></thead><tbody><tr><td>byte</td><td>1</td><td>-128 ~ 127</td></tr><tr><td>short</td><td>2</td><td>-32768 ~ 32767</td></tr><tr><td>int</td><td>4</td><td>-2147483648 ~ 2147483647</td></tr><tr><td>long</td><td>8</td><td>-9223372036854775808 ~ 9223372036854775807</td></tr></tbody></table><h3 id="浮点型"><a href="#浮点型" class="headerlink" title="浮点型"></a>浮点型</h3><p>浮点型包括两种类型，分别是<code>float</code>和<code>double</code>。它们分别占用4和8个字节，表示的范围也不同，如下表所示：</p><table><thead><tr><th>数据类型</th><th>占用字节数</th><th>表示范围</th></tr></thead><tbody><tr><td>float</td><td>4</td><td>1.4E-45 ~ 3.4028235E+38</td></tr><tr><td>double</td><td>8</td><td>4.9E-324 ~ 1.797693134E+308</td></tr></tbody></table><h3 id="字符型"><a href="#字符型" class="headerlink" title="字符型"></a>字符型</h3><p>字符型只有一种类型，即<code>char</code>。它占用2个字节，可以表示所有Unicode字符，表示范围为0 ~ 65535。</p><h3 id="布尔型"><a href="#布尔型" class="headerlink" title="布尔型"></a>布尔型</h3><p>布尔型只有一种类型，即<code>boolean</code>。它只有两个取值，分别为<code>true</code>和<code>false</code>，占用1个字节。</p><h2 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h2><p>Java的引用类型指除了基本数据类型之外的类型，包括类、接口、数组等。引用类型变量存储的是对象的地址，而不是对象本身。引用类型变量的默认值为<code>null</code>。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文简单介绍了Java的八种基本数据类型和引用类型。在实际开发中，我们需要根据需求选择适当的数据类型，以免浪费内存或出现数据精度等问题。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>01-Java基础知识-简介</title>
-      <link href="/2023/05/12/java1/"/>
-      <url>/2023/05/12/java1/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java简介"><a href="#Java简介" class="headerlink" title="Java简介"></a>Java简介</h1><p>Java是一种面向对象的编程语言，由Sun Microsystems在1995年推出。Java的特点是跨平台、简单易学、安全可靠、支持多线程、面向对象等，这些特点使得Java成为了全球最受欢迎的编程语言之一。</p><h2 id="跨平台"><a href="#跨平台" class="headerlink" title="跨平台"></a>跨平台</h2><p>Java的跨平台性是由其虚拟机（JVM）实现的。Java程序在编译之后会生成一种特殊的字节码格式，这种字节码可以在任何能够运行Java虚拟机的平台上执行。这意味着，一次编译可以在不同的操作系统和计算机上运行，避免了因为操作系统或硬件的差异而导致的不兼容性问题。</p><h2 id="简单易学"><a href="#简单易学" class="headerlink" title="简单易学"></a>简单易学</h2><p>Java的语法与C++和C语言比较相似，但是相对来说更加简单。Java取消了一些C++中比较复杂的特性，如指针、多继承等。同时，Java还提供了很多高级特性，如自动内存管理、垃圾回收、异常处理等，这些特性都大大减轻了开发人员的工作量，降低了出错的概率。</p><h2 id="安全可靠"><a href="#安全可靠" class="headerlink" title="安全可靠"></a>安全可靠</h2><p>Java提供了很多安全机制，如安全沙箱、类加载器等，这些机制都可以保证Java程序的安全性。Java也提供了一些强制类型检查、空指针检查等功能，这些功能也有助于减少程序中的错误。</p><h2 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h2><p>Java提供了丰富的多线程机制，允许开发人员使用多线程来充分利用多核CPU，提高程序的执行效率。Java的多线程机制包括线程类、线程同步、线程池等。</p><h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><p>Java是一种面向对象的编程语言，所有的Java程序都是由对象组成的。Java的面向对象机制包括类、对象、封装、继承、多态等。面向对象的编程思想能够提高程序的可维护性、可扩展性、可重用性。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Java作为一种跨平台、简单易学、安全可靠、支持多线程、面向对象等的编程语言，应用广泛。Java在各种领域中都有广泛的应用，如Web开发、移动应用开发、桌面应用开发、大数据处理等。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>02-Java基础知识-变量</title>
-      <link href="/2023/05/12/java2/"/>
-      <url>/2023/05/12/java2/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java中的变量"><a href="#Java中的变量" class="headerlink" title="Java中的变量"></a>Java中的变量</h1><p>在Java编程中，变量是存储数据的最基本的单元。变量可以保存各种类型的数据，如整数、浮点数、字符、字符串等等。本文将介绍Java中的变量类型、命名规则和作用域等方面的内容。</p><h2 id="变量类型"><a href="#变量类型" class="headerlink" title="变量类型"></a>变量类型</h2><p>Java中的变量可以分为以下几种类型：</p><h3 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h3><p>Java中的基本类型有8种，分别为：</p><ul><li>byte：1字节，范围为-128 ~ 127。</li><li>short：2字节，范围为-32768 ~ 32767。</li><li>int：4字节，范围为-2147483648 ~ 2147483647。</li><li>long：8字节，范围为-9223372036854775808 ~ 9223372036854775807。</li><li>float：4字节，范围为1.4E-45 ~ 3.4028235E38。</li><li>double：8字节，范围为4.9E-324 ~ 1.7976931348623157E308。</li><li>char：2字节，范围为0 ~ 65535。</li><li>boolean：1位，只有两个值：true和false。</li></ul><h3 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h3><p>Java中的引用类型指的是对象，这些对象在堆中分配，变量在栈中存储一个引用指向堆中的对象。Java中的引用类型有类、接口、数组、枚举等等。</p><h2 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h2><p>Java中的变量名必须满足以下规则：</p><ul><li>变量名必须以字母、下划线（_）或美元符号（$）开始。</li><li>变量名不能以数字开头。</li><li>变量名只能包含字母、数字、下划线或美元符号。</li><li>变量名区分大小写。</li><li>变量名不能是Java关键字和保留字。</li></ul><h2 id="作用域"><a href="#作用域" class="headerlink" title="作用域"></a>作用域</h2><p>Java中的变量有不同的作用域。变量的作用域指的是变量在程序中可见的范围。在Java中，变量的作用域可以分为以下几种：</p><h3 id="类变量（静态变量）"><a href="#类变量（静态变量）" class="headerlink" title="类变量（静态变量）"></a>类变量（静态变量）</h3><p>类变量是定义在类中的静态变量。这些变量被所有该类的对象共享。在类的定义中使用static关键字定义。</p><h3 id="实例变量"><a href="#实例变量" class="headerlink" title="实例变量"></a>实例变量</h3><p>实例变量是定义在类中，但在方法、语句块或构造函数之外的变量。每个对象都有一份实例变量的副本。</p><h3 id="局部变量"><a href="#局部变量" class="headerlink" title="局部变量"></a>局部变量</h3><p>局部变量是定义在方法、语句块或构造函数中的变量。这些变量只在方法、语句块或构造函数中有效。</p><h2 id="变量的声明和初始化"><a href="#变量的声明和初始化" class="headerlink" title="变量的声明和初始化"></a>变量的声明和初始化</h2><p>Java中的变量需要先声明后使用。声明变量时需要指定变量的类型，变量名以及作用域。变量的初始化指的是为变量赋初值。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>blog更新工作进展(2023/5/10)</title>
-      <link href="/2023/05/10/blog4/"/>
-      <url>/2023/05/10/blog4/</url>
-      
-        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-10："><a href="#2023-x2F-5-x2F-10：" class="headerlink" title="2023&#x2F;5&#x2F;10："></a>2023&#x2F;5&#x2F;10：</h3><p>1.增加了分类和tag（标签）页面。</p><p>2.更改了首页图片，换了张小的，加载更快一点。</p><p>3.增加了友情链接页面。</p><p>4.增加了图片gallery。</p><h2 id="目前bug（2023-x2F-5-x2F-9）："><a href="#目前bug（2023-x2F-5-x2F-9）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;9）："></a>目前bug（2023&#x2F;5&#x2F;9）：</h2><p>暂无。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> blog更新日志 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> 日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>blog更新工作进展(2023/5/9)</title>
-      <link href="/2023/05/09/blog3/"/>
-      <url>/2023/05/09/blog3/</url>
-      
-        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-9："><a href="#2023-x2F-5-x2F-9：" class="headerlink" title="2023&#x2F;5&#x2F;9："></a>2023&#x2F;5&#x2F;9：</h3><p>1.新增了留言板功能。</p><p><img src="/img/1/07.png" alt="07"></p><p>2.添加了Waline评论系统。（不是）</p><p>（在尝试修复国内无法看到评论的bug后，我成功的把原来的waline整个东西搞没了，后续又折腾了好久没折腾回来）</p><p>然后我改用twikoo了，已正常使用。评论被回复后会有邮件提醒（推荐使用qq邮箱，可以获取qq头像）</p><h2 id="目前bug（2023-x2F-5-x2F-9）："><a href="#目前bug（2023-x2F-5-x2F-9）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;9）："></a>目前bug（2023&#x2F;5&#x2F;9）：</h2><p>暂无。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> blog更新日志 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> 日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Ai绘画 《无人之城与少女》</title>
-      <link href="/2023/05/08/aihuihua/"/>
-      <url>/2023/05/08/aihuihua/</url>
-      
-        <content type="html"><![CDATA[<h2 id="《无人之城与少女》"><a href="#《无人之城与少女》" class="headerlink" title="《无人之城与少女》"></a>《无人之城与少女》</h2><div align=center class="aspect-ratio"><iframe src="//player.bilibili.com/player.html?aid=226741779&bvid=BV1th411V7S9&cid=1072864481&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> Ai人工智能 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Ai </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>blog更新工作进展(2023/5/8)</title>
-      <link href="/2023/05/08/blog2/"/>
-      <url>/2023/05/08/blog2/</url>
-      
-        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-8："><a href="#2023-x2F-5-x2F-8：" class="headerlink" title="2023&#x2F;5&#x2F;8："></a>2023&#x2F;5&#x2F;8：</h3><p>1.搜索功能已修复，可以正常使用</p><p><img src="/img/1/04.png" alt="04"></p><p>2.增加了全程吸底的音乐播放器</p><p><img src="/img/1/05.png" alt="05"></p><p>3.适配了b站视频。</p><p>4.增加alice挂件(pc端才有)，alice女儿可爱捏。</p><p><img src="/img/1/06.png" alt="06"></p><h2 id="目前bug（2023-x2F-5-x2F-8）："><a href="#目前bug（2023-x2F-5-x2F-8）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;8）："></a>目前bug（2023&#x2F;5&#x2F;8）：</h2><p>加载动画仍有问题，不打算用加载动画了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> blog更新日志 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> 日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>blog更新工作进展(2023/5/7)</title>
-      <link href="/2023/05/07/blog/"/>
-      <url>/2023/05/07/blog/</url>
-      
-        <content type="html"><![CDATA[<p>本篇博客记录一下本站搭建工作以及后续更新。</p><h2 id="更新记录："><a href="#更新记录：" class="headerlink" title="更新记录："></a>更新记录：</h2><h3 id="2023-x2F-5-x2F-7："><a href="#2023-x2F-5-x2F-7：" class="headerlink" title="2023&#x2F;5&#x2F;7："></a>2023&#x2F;5&#x2F;7：</h3><p>1.绑定个人域名beichengouo.top。</p><p>2.pc端网站背景增加动态彩带特效。</p><p>3.新增搜索功能：</p><p><img src="/img/1/04.png" alt="04"></p><p>4.调整了网页整体布局。</p><p>5.更新了相册。</p><p>6.增加了文章封面和tags，调整了文章顺序，增加了置顶文章。</p><h2 id="目前bug（2023-x2F-5-x2F-7）："><a href="#目前bug（2023-x2F-5-x2F-7）：" class="headerlink" title="目前bug（2023&#x2F;5&#x2F;7）："></a>目前bug（2023&#x2F;5&#x2F;7）：</h2><p>本地端搜索栏显示正常，部署到服务器上会显示在最底下，折腾了一下午暂时无法解决。大概率是github作为服务器加载外部网站上的js和css加载太慢了的问题。应该部署到自己服务器上不会出错。目前暂时把搜索和加载动画功能关闭了。</p><h2 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h2><p>有时候进不了网站可能正在修bug，过段时间清理一下缓存就可以进来了，如果还进不去大概率是我还正在修bug。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> blog更新日志 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> 日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>QQ机器人2.0更新工作（5/5）</title>
-      <link href="/2023/05/05/qbot/"/>
-      <url>/2023/05/05/qbot/</url>
-      
-        <content type="html"><![CDATA[<p>本篇博客记录一下个人qbot搭建工作以及后续更新。qbot搭建具体步骤参考b站呆呆木的教程。在原版基础上做了很多更新，加了很多内容，机器人qq：2468138690（自动加好友），已部署在海外服务器上，秒回复，标注❤️的则为原版没有的内容。</p><h2 id="当前机器人功能游览"><a href="#当前机器人功能游览" class="headerlink" title="当前机器人功能游览"></a>当前机器人功能游览</h2><h3 id="管理员指令表："><a href="#管理员指令表：" class="headerlink" title="管理员指令表："></a>管理员指令表：</h3><p><img src="/img/1/01.png" alt="01"></p><h3 id="用户（非管理）指令："><a href="#用户（非管理）指令：" class="headerlink" title="用户（非管理）指令："></a>用户（非管理）指令：</h3><p><img src="/img/1/02.png" alt="02"></p><h3 id="指令功能介绍："><a href="#指令功能介绍：" class="headerlink" title="指令功能介绍："></a>指令功能介绍：</h3><p>重置会话：重置当前会话。</p><p>指令说明：回复指令说明大全，目前因账号被风控无法在qq群内回复指令大全，私聊正常。</p><p>设置人格：设置gpt初始人格。格式如 设置人格 xxxxxx（描述）</p><p>语音开启&#x2F;关闭：开启&#x2F;关闭语音回复。</p><p>拉黑&#x2F;解除：拉黑指定qq号直至解除或者服务器重启，拉黑后机器人将不会对指定qq进行回复。❤️</p><p>私人模式：开启后非管理无法与机器人对话。❤️</p><p>变xxx：切换对应预置人格。❤️</p><p>醒醒&#x2F;昏睡：醒醒后机器人会在群内随机回复群友的话，初始概率为1&#x2F;3，通过高冷一点&#x2F;呆萌一点命令可以调整回复概率，昏睡开启后机器人将不会随机回复。❤️</p><p>设备信息：显示服务器各参数详细信息。❤️</p><p>磁盘信息：显示服务器磁盘内存信息。❤️</p><p>拉黑检测：检测到指定敏感关键词将自动拉黑对方。❤️</p><p>初始自动检测：第一次对话将自动识别非管理和管理用户。用于加载不同初始设置（比如加载不同人格）。❤️</p><h2 id="最近更新："><a href="#最近更新：" class="headerlink" title="最近更新："></a>最近更新：</h2><h3 id="2023-x2F-5-x2F-1"><a href="#2023-x2F-5-x2F-1" class="headerlink" title="2023&#x2F;5&#x2F;1"></a>2023&#x2F;5&#x2F;1</h3><p>1.机器人新增了发表情的功能，每一次回复有1&#x2F;3概率在后面增加表情。❤️</p><p><img src="/img/1/03.png" alt="03"></p><p>2.修复了切换人格后第一句对话不理人的情况。</p><p>3.优化了回复概率问题。</p><p>4.优化了预置人格，在每句话前增加了时间（每句话都告诉gpt当前时间）。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Ai人工智能 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Ai </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2023/05/05/hello-world/"/>
-      <url>/2023/05/05/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>本博客使用 <a href="https://hexo.io/">Hexo</a>制作! 这是我的第一篇文章. 查看 <a href="https://hexo.io/docs/">文档</a> 获得更多信息. 如果你在使用Hexo中遇到任何问题，你可以在 <a href="https://hexo.io/docs/troubleshooting.html">故障排除</a> 中找到答案， 或者你可以在 <a href="https://github.com/hexojs/hexo/issues">GitHub</a>上问我.</p><h2 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h2><h3 id="命令：Create-a-new-post"><a href="#命令：Create-a-new-post" class="headerlink" title="命令：Create a new post"></a>命令：Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="命令：Run-server"><a href="#命令：Run-server" class="headerlink" title="命令：Run server"></a>命令：Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="命令：Generate-static-files"><a href="#命令：Generate-static-files" class="headerlink" title="命令：Generate static files"></a>命令：Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="命令：Deploy-to-remote-sites"><a href="#命令：Deploy-to-remote-sites" class="headerlink" title="命令：Deploy to remote sites"></a>命令：Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> blog更新日志 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
             
             <tag> 日志 </tag>
             
